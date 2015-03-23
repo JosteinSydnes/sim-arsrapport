@@ -1,22 +1,24 @@
 ### sim-arsrapport ###
 
 ### Description ###
-Repository for Oktan stord and Oktan Stavanger for cooporation on this project.
+Annual Report for SIM.
+Repository for cooporation between Oktan stord and Oktan Stavanger.
 
 ### What is this repository for? ###
-* Reveal.js presentation for SIM.
 * Annual Report for SIM.
 * Easy cooperation between Oktan departments.
 
 ### Set up ###
-* Clone to your local webserver
+* Clone-Branch-Fork to your local webserver.
+* Presentation data in index.php.
+* Styles are written in sass.
 * Have fun!
 
 ### Contribution ###
-* This is a repo (private) for Oktan Stord and Oktan Stavanger.
+* Project is based on reveal.js and other libs.
 * Only for Oktan developers.
 * See Contact for questions.
 
 ### Contact ###
-* Øyvind Eikeland oyvind.eikelandæoktan.no
+* Øyvind Eikeland oyvind.eikeland@oktan.no
 * Jon Arne Tjelta jon.tjelta@oktan.no
