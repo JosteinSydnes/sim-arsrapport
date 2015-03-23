@@ -13,7 +13,13 @@
 $green: #007C66;
 $green-rgb: rgb(0,124,102);
 $green-rgba: rgba(0,124,102,0);
-$green-hover: #009999;
+$green-light: #73C697;
+$grey: #666666;
+$grey-light: #f0f0f0;
+$brown: #B28978;
+$blue: #14B3F0;
+$purple: #635D7C;
+
 
 *,
 *:after,
@@ -27,6 +33,7 @@ $green-hover: #009999;
 body {
 	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
 	font-weight: 300;
+	font-size: 1.2em;
 }
 .reveal {
 
@@ -34,16 +41,8 @@ body {
 		text-align: left;
 
 		& > section {
-			line-height: 1.3;
-			font-weight: inherit;
-			-webkit-transform-style: flat;
-			transform-style: flat;
 
 			& > section {
-				line-height: 1.3;
-				font-weight: inherit;
-				-webkit-transform-style: flat;
-				transform-style: flat;
 			}
 		}
 	}
@@ -119,7 +118,7 @@ body {
 		text-decoration: none;
 
 		&:hover {
-			color: $green-hover;
+			color: $green-light;
 			text-shadow: none;
 			border: none;
 		}
@@ -158,7 +157,7 @@ body {
 				border-right-color: $green;
 
 				&:hover {
-					border-right-color: $green-hover;
+					border-right-color: $green-light;
 				}
 			}
 		}
@@ -169,7 +168,7 @@ body {
 				border-left-color: $green;
 
 				&:hover {
-					border-left-color: $green-hover;
+					border-left-color: $green-light;
 				}
 			}
 		}
@@ -180,7 +179,7 @@ body {
 				border-bottom-color: $green;
 
 				&:hover {
-					border-bottom-color: $green-hover;
+					border-bottom-color: $green-light;
 				}
 			}
 		}
@@ -191,7 +190,7 @@ body {
 				border-top-color: $green;
 
 				&:hover {
-					border-top-color: $green-hover;
+					border-top-color: $green-light;
 				}
 			}
 		}
@@ -295,6 +294,49 @@ body {
 		margin: 0;
 	}
 }
+
+.reveal {
+	.canvas-holder {
+		canvas {
+			display: block;
+			margin: 40px auto;
+		}
+	}
+	.chart-legends {
+		font-size: 0.75em;
+		text-align: center;
+		margin: 20px auto;
+
+		.legend {
+			position: relative;
+			top: 0.2em;
+			background: $green;
+			display: inline-block;
+			width: 1em;
+			height: 1em;
+			margin:0 20px;
+			border-radius: 0.5em;
+
+			&.grey {
+				background: $grey;
+			}
+			&.brown {
+				background: $brown;
+			}
+			&.blue {
+				background: $blue;
+			}
+			&.green-light {
+				background: $green-light;
+			}
+			&.purple {
+				background: $purple;
+			}
+		}
+	}
+}
+
+
 
 .footer {
 	position: fixed;

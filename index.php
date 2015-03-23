@@ -31,6 +31,7 @@
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/chart.min.js"></script>
 		<script src="js/script.js"></script>
 
 		<!--[if lt IE 9]>
@@ -363,7 +364,7 @@
 										array("name" => "Reidun Åsheim", "position" => "Leiar", "img" => "reidun_asheim.png"),
 										array("name" => "Hein Schaug", "position" => "Styremedlem", "img" => "hein_schaug.png"),
 										array("name" => "Edvard Stangeland", "position" => "Styremedlem", "img" => "edvard_stangeland.png"),
-										array("name" => "Terje Gilje", "position" => "Styremedlem", "img" => "terje_gilje.png")
+										array("name" => "Terje Gilje", "position" => "Dagleg leiar", "img" => "terje_gilje.png")
 									);
 
 								foreach ($signatures as $sign) : ?>
@@ -460,271 +461,113 @@
 				</section>
 
 				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
 					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment roll-in">roll-in</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
+						<h2>Vårt samfunn</h2>
 					</section>
-				</section>
 
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
+					<section>
+						<h3>Eit reinare Sunnhordland</h3>
 
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
+						<p>SIM er oppteken av at Sunnhordlandsnaturen er rein og frisk. Selskapet har difor alltid hatt fokus på å støtta tiltak som engasjerer og motiverer innbyggjarane til å rydda avfall der ein ikkje klårt kan peika på kven som har ansvar. Ryddedugnadane er veldig populære og mange innbyggjarar tek oppmodinga om å engasjera seg for ein reinare og ryddigare heimkommune.</p>
+					</section>
+
+					<section>
+						<h3>Rydd Sunnhordland</h3>
+
+						<p>53 lokale velforeiningar og lag søkte om grøne sekker for å rydda i 2014. Rydd Sunnhordland er ein ryddedugnad der vellag, burettslag og andre kan søkja om å få rydda nærområdet sitt. Ein kan melda seg på ryddeaksjonen heile året. Avfallet som vert samla inn må fraktast til ein av SIM sine miljøsentralar. Der kan det leverast kostnadsfritt.</p>
+					</section>
+
+					<section>
+						<h3>Rydd ei strand</h3>
+
+						<p>SIM ynskjer å få i gong rydding av strender som ingen offentlege instansar har ryddeansvar for. SIM støtta i 2014 17 slike søknadar, som resulterte i rydding i fleire store strandområder i Sunnhordland.</p>
+					</section>
+
+					<section>
+						<h3>Meld frå om forureining</h3>
+
+						<p>SIM sitt bidrag i denne aksjonen er ikkje å rydde opp, men å hjelpe grunneigar, kommunen eller den som har forsøpla, til å finne løysingar slik at det vert rydda opp. Ei målsetjing er å få ut informasjon om kven som har ansvar for å rydda opp i forureining. Sidan oppstart har SIM vore bidratt til opprydding i 200 saker.</p>
+					</section>
+
+					<section>
+						<h3>Informasjon</h3>
+
+						<p>SIM sitt informasjonsarbeid har to hovudfokus. Det eine er å informera innbyggjarane om ordningane, tenestene, løysingar og miljørett avfallshandtering. Det andre er å motivera og vera pådrivar for å skapa rette haldningar knytt til miljøarbeid og berekraftig utvikling.</p>
+
+						<p>SIM-nytt, sentralbord, tømmekalenderen, SIM APP, SIM sine nettsider og pressemeldingar var dei viktigaste informasjonskanalane for SIM i 2014.</p>
+					</section>
+
+					<section>
+						<h3>Skuleprosjektet</h3>
+
+						<p>I 2014 var bortimot 800 skuleelevar og lærarar hjå SIM for å læra om kjeldesortering, attvinning og berekraftig utvikling. SIM betalar reisa for skuleklassane. </p>
+					</section>
+
+					<section>
+						<h3>Andre tilskotsordningar</h3>
+
+						<p>10 søknader om tilskot til kjøp av tøybleier vart godkjende. Det vart gjeve tilskot til loppemarknadar og gjenbruksbutikkar. </p>
+					</section>
 				</section>
 
 				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+					<section>
+						<h2>Avfallsmengder</h2>
+
+						<p>Mengda innsamla hushaldsavfall i SIM-kommunane auka med 1 % frå 2013 til 2014. Innsamla mengder i 2014 var 15 128 tonn. Totalt mottok SIM 24 948 tonn hushaldsavfall frå innbyggjarane i Sunnhordland. 98 % av det som vart samla inn vart sendt til attvinning.. Attvinningsprosenten har auka mykje sidan 2003, det året SIM starta med å senda avfall til attvinning. Det året var attvinningsprosenten på 48 %.</p>
 					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
+
+					<section>
+						<h3>Avfall henta heime hos folk (medrekna hytteavfall)</h3>
+
+						<div class="canvas-holder pie">
+							<canvas id="chart-area" class="center-chart" width="400" height="400"></canvas>
+							<p class="aligncenter">Til saman: 15 128 tonn</p>
+						</div>
+						<div class="chart-legends">
+								Restavfall: <span class="legend grey"></span>
+								Bio: <span class="legend brown"></span>
+								Papir: <span class="legend blue"></span>
 						</div>
 					</section>
-				</section>
 
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code>Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
+					<section>
+						<h3>Mengder til deponi</h3>
 
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
+						<div class="canvas-holder bar">
+							<canvas id="bar-chart" width="600" height="400"></canvas>
+						</div>
 
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
+						<div class="chart-legends">
+								Mengder i tonn: <span class="legend"></span>
+						</div>
+					</section>
 
-    var nodes = document.querySelectorAll( selector );
+					<section>
+						<h3>Samla avfallsmengder som SIM tek hand om</h3>
 
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
+						<div class="canvas-holder pie">
+							<canvas id="pie-avfallsmengder" width="400" height="400"></canvas>
+							<p class="aligncenter">Til saman: 45 753 tonn</p>
+						</div>
 
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
+						<div class="chart-legends">
+								Hushaldsavfall til attvinning <span class="legend"></span>
+								Hushaldsavfall til deponi <span class="legend brown"></span>
+								Næringsavfall til deponi <span class="legend green-light"></span>
+								Næringsavfall til attvinning <span class="legend purple"></span>
+								Slam <span class="legend blue"></span>
+						</div>
+					</section>
 
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
+					<section>
+						<h3>Husavfall</h3>
 
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							<tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							<tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							<tr>
-						</tbody>
-					</table>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="//www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
-					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
-					</ul>
-				</section>
-
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
+						<div class="cancas-holder">
+							<canvas id="hushold-bar" width="600" height="400"></canvas>
+							<p class="aligncenter">Totalt: 25 057 tonn</p>
+						</div>
+					</section>
 				</section>
 
 			</div>
@@ -768,15 +611,144 @@ Reveal.addEventListener( 'customevent', function() {
 		<script src="js/reveal.js"></script>
 
 		<script>
-			// Full list of configuration options available at:
-			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				controls: true,
 				progress: false,
 				history: true,
 				center: true,
+				maxScale: 1,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
+			});
+
+			var pieData = [
+				{
+					value: 59,
+					color:"#666666",
+					highlight: "#26AD77",
+					label: "Restavfall: 8 969 tonn"
+				},
+				{
+					value: 22,
+					color: "#B28978",
+					highlight: "#26AD77",
+					label: "Bioavfall: 3 359 tonn"
+				},
+				{
+					value: 15,
+					color: "#14B3F0",
+					highlight: "#26AD77",
+					label: "Papir: 2 295 tonn"
+				},
+				{
+					value: 4,
+					color: "#F0F0F0",
+					highlight: "#26AD77",
+					label: "Anna avfall"
+				}
+
+			];
+
+			var deponidata = {
+			    labels: ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014"],
+			     datasets: [
+			        {
+			            label: "Verdi",
+			            fillColor: "#007C66",
+			            strokeColor: "#666666",
+			            pointColor: "rgba(220,220,220,1)",
+			            pointStrokeColor: "#fff",
+			            pointHighlightFill: "#fff",
+			            pointHighlightStroke: "rgba(220,220,220,1)",
+			            data: [27.157, 27.157, 28.362, 26.726, 30.146, 32.293, 36.454, 40.604, 41.028, 37.952, 13.248, 5.568, 5.185, 11.100, 8.075]
+			        }
+			    ]
+			};
+
+			var avfallData = [
+				{
+					value: 1.7,
+					color:"rgb(189,147,127)",
+					highlight: "#26AD77",
+					label: "Hushaldsavfall deponi: 798 tonn"
+				},
+				{
+					value: 52,
+					color: "rgb(29,125,102)",
+					highlight: "#26AD77",
+					label: "Hushaldsavfall attvinning: 24 150 tonn"
+				},
+				{
+					value: 15,
+					color: "rgb(115,198,151)",
+					highlight: "#26AD77",
+					label: "Næringsavfall deponi: 7 277 tonn"
+				},
+				{
+					value: 21,
+					color: "rgb(99,93,124)",
+					highlight: "#26AD77",
+					label: "Næringsavfall attvinning: 9 659 tonn"
+				},
+				{
+					value: 8.4,
+					color: "rgb(71,119,151)",
+					highlight: "#26AD77",
+					label: "Slam: 3 870 tonn"
+				}
+
+			];
+
+			var husholdData = {
+			    labels: ["Avfallsbrensel", "Våtorganisk", "Heimekompostering", "Papir", "Glas", "Stål", "EE-avfall", "Hageavfall", "Gips", "Trevirke", "Farleg avfall", "Plast"],
+			     datasets: [
+			        {
+			            label: "Husavfall",
+			            fillColor: "#007C66",
+			            strokeColor: "#666666",
+			            pointColor: "rgba(220,220,220,1)",
+			            pointStrokeColor: "#fff",
+			            pointHighlightFill: "#fff",
+			            pointHighlightStroke: "rgba(220,220,220,1)",
+			            data: [11604, 3328, 792, 2667, 465, 1067, 660, 875, 128, 2890, 764, 75]
+			        }
+			    ]
+			};
+
+			Chart.defaults.global.responsive = false;
+			//Chart.defaults.global.tooltipTemplate = "<%if (label){%><%=label%> <%}%><%= value %>%";
+			Chart.defaults.global.scaleFontFamily = "'Source Sans Pro', 'Helvetica', 'Arial', sans-serif";
+			Chart.defaults.global.tooltipFontFamily = "'Source Sans Pro', 'Helvetica', 'Arial', sans-serif";
+			Chart.defaults.global.tooltipTitleFontFamily = "'Source Sans Pro', 'Helvetica', 'Arial', sans-serif";
+
+			Reveal.addEventListener( 'slidechanged', function( event ) {
+				var state = Reveal.getState();
+				if(state.indexh == 7 && state.indexv == 1) {
+					console.log("i am on state 7 vertical1");
+					var ctx = $("#chart-area").get(0).getContext("2d");
+					var myPie = new Chart(ctx).Doughnut(pieData, {
+						tooltipTemplate: "<%if (label){%><%=label%> <%}%><%= value %>%"
+						}
+					);
+				}
+				if(state.indexh == 7 && state.indexv == 2) {
+					var ctxb = $("#bar-chart").get(0).getContext("2d");
+					var myBarChart = new Chart(ctxb).Bar(deponidata, {
+						tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn"
+					});
+				}
+				if(state.indexh == 7 && state.indexv == 3) {
+					var ctavfall = $("#pie-avfallsmengder").get(0).getContext("2d");
+					var myPieavfall = new Chart(ctavfall).Pie(avfallData, {
+						tooltipTemplate: "<%if (label){%><%=label%> <%}%><%= value %>%"
+					});
+				}
+				if(state.indexh == 7 && state.indexv == 4) {
+					var cthushold = $("#hushold-bar").get(0).getContext("2d");
+					var myBarHushold = new Chart(cthushold).Bar(husholdData, {
+						tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn"
+					});
+				}
 			});
 		</script>
 	</body>
