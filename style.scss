@@ -1,0 +1,383 @@
+/**
+ * SIM arsrapport 2014
+ *
+ * Custom styles for sim arsrapport 2014
+ */
+
+@import 'css/reveal.scss';
+@import 'css/eiksminigrid';
+@import 'css/font-awesome/scss/font-awesome';
+@import 'css/theme/template/mixins';
+
+// Sass colors
+$green: #007C66;
+$green-rgb: rgb(0,124,102);
+$green-rgba: rgba(0,124,102,0);
+$green-hover: #009999;
+
+*,
+*:after,
+*:before {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+body {
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	font-weight: 300;
+}
+.reveal {
+
+	.slides {
+		text-align: left;
+
+		& > section {
+			line-height: 1.3;
+			font-weight: inherit;
+			-webkit-transform-style: flat;
+			transform-style: flat;
+
+			& > section {
+				line-height: 1.3;
+				font-weight: inherit;
+				-webkit-transform-style: flat;
+				transform-style: flat;
+			}
+		}
+	}
+
+	*[class*=grid] {
+		padding:0 1em;
+	}
+}
+
+/*    SELECTION
+----------------------------------------*/
+::-webkit-selection {
+	background:$green;
+	color:#FFF;
+	text-shadow:none;
+}
+::-moz-selection {
+	background:$green;
+	color:#FFF;
+	text-shadow:none;
+}
+::selection {
+	background:$green;
+	color:#FFF;
+	text-shadow:none;
+}
+
+
+/*    CLEARFIX
+----------------------------------------*/
+.clear:before,
+.clear:after {
+    content:" ";
+    display:table;
+}
+.clear:after {
+    clear:both;
+}
+.clear {
+    *zoom:1;
+}
+
+
+/*    TYPOGRAPHY
+ ----------------------------------------*/
+.reveal {
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 400;
+		margin: 0.5em 0;
+		line-height: 1.2;
+	}
+	h1 {
+		font-size: 3.77em;
+	}
+	h2 {
+		font-size: 2.11em;
+	}
+	h3 {
+		font-size: 1.55em;
+	}
+	h4 {
+		font-size: 1em;
+	}
+	h1 {
+		text-shadow: none;
+	}
+	p {
+		margin: 0.5em 0;
+		line-height: 1.3;
+	}
+	a {
+		color: $green;
+		text-decoration: none;
+
+		&:hover {
+			color: $green-hover;
+			text-shadow: none;
+			border: none;
+		}
+	}
+	strong, b {
+		font-weight: bold;
+	}
+	em, cite {
+		font-style: italic;
+	}
+	ol {
+		margin: 20px 0 20px 20px;
+	}
+	img, video, iframe {
+		max-width: 95%;
+		max-height: 95%;
+	}
+	section img {
+		margin: 15px 0px;
+	}
+}
+
+/*    NAVIGATION
+ ----------------------------------------*/
+.reveal .controls {
+	bottom: 50%;
+	margin-bottom: -55px;
+
+	div {
+		opacity: 0.25;
+
+		&.navigate-left {
+			border-right-color: $green;
+
+			&.enabled {
+				border-right-color: $green;
+
+				&:hover {
+					border-right-color: $green-hover;
+				}
+			}
+		}
+		&.navigate-right {
+			border-left-color: $green;
+
+			&.enabled {
+				border-left-color: $green;
+
+				&:hover {
+					border-left-color: $green-hover;
+				}
+			}
+		}
+		&.navigate-up {
+			border-bottom-color: $green;
+
+			&.enabled {
+				border-bottom-color: $green;
+
+				&:hover {
+					border-bottom-color: $green-hover;
+				}
+			}
+		}
+		&.navigate-down {
+			border-top-color: $green;
+
+			&.enabled {
+				border-top-color: $green;
+
+				&:hover {
+					border-top-color: $green-hover;
+				}
+			}
+		}
+	}
+}
+
+/*    CUSTOM STYLES
+ ----------------------------------------*/
+.simcolor {
+	color: $green;
+}
+.color-white {
+	color: #ffffff;
+}
+.aligncenter {
+	text-align: center;
+}
+.alignright {
+	text-align: right;
+}
+
+.first-one {
+	text-align: center;
+
+	h1 {
+		width: auto;
+		padding: 0.5em;
+		border-radius: 20px;
+	}
+	img {
+		padding: 2em;
+		border-radius: 20px;
+	}
+	* {
+		background: #fff;
+		@include radial-gradient(rgba(255,255,255,0.7), rgba(255,255,255,1));
+	}
+}
+
+.leader-signature {
+	p {
+		margin:0;
+	}
+}
+
+.tilsette {
+
+	div[class*=grid] {
+		padding: 0;
+		margin: 0;
+	}
+	.tilsett {
+		position: relative;
+		padding: 2.5px;
+
+		img {
+			width: 100%;
+			max-width: 100%;
+			height: auto;
+			max-height: auto;
+			vertical-align: middle;
+			margin: 0 !important;
+			box-shadow: 0 0 1px rgba(0,0,0,0.35);
+		}
+
+		.stilling {
+			position: absolute;
+			right: 2em;
+			bottom: 0.5em;
+			color: #ffffff;
+			font-size: 0.7em;
+
+			p {
+				text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+			}
+		}
+	}
+}
+
+.styre-signatur {
+	text-align: center;
+
+	.signatur {
+		margin: 2em 0;
+		img {
+			width: 50%;
+			vertical-align: middle;
+			margin: 0 !important;
+		}
+	}
+}
+
+.info-sentral {
+	h4 {
+		font-size: 4em;
+		padding-top: 0.5em;
+		margin: 0;
+	}
+	p {
+		font-size: 2em;
+		margin: 0;
+	}
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-weight: 300;
+	font-size: 1.2em;
+	color: #fff;
+	z-index: 9;
+
+	.nav-footer {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		// background: $green - 20;
+		@include vertical-gradient($green-rgb, rgb(0,102,102));
+		width: 100%;
+		height: 1px;
+		padding-bottom: 0;
+		-moz-transition: all 0.5s ease-in-out;
+		-webkit-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+
+
+		&.show-me {
+			height: auto;
+			padding-bottom: 100px;
+		}
+		nav {
+
+			ul {
+				width:100%;
+				list-style: none;
+
+				li {
+					text-align: center;
+					margin:0.5em 0;
+
+					&:last-of-type:after {
+						content: " ";
+						display: table;
+					}
+
+					a {
+						color: #fff;
+						text-decoration: none;
+						font-weight: 300;
+					}
+				}
+			}
+		}
+	}
+
+	.main-footer {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		background: url(img/jaggedline.png) repeat-x left top;
+		width: 100%;
+		height: 76px;
+		line-height: 60px;
+
+		@media only screen and (max-width:768px) {
+			height: auto;
+			text-align: center;
+			line-height: 1.3;
+		}
+
+		.main-item {
+
+			a {
+				color: #fff;
+				text-decoration: none;
+			}
+
+			button {
+				background: none;
+				font-size: 1.6em;
+				line-height: 1;
+				color: #fff;
+				border: none;
+			}
+		}
+	}
+}

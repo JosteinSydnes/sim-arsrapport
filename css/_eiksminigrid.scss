@@ -1,0 +1,65 @@
+/*    EIKS MINI GRID SYSTEM
+ ----------------------------------------*/
+@mixin grid-setup($width) {
+	float: left;
+	position: relative;
+	width: #{$width}#{'%'};
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+@each $var in 10, 12, 15, 16, 20, 25, 30, 33, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90 {
+	.grid#{$var} {
+		@if $var == 12 {
+			@include grid-setup($var + 0.5)
+		}
+		@else if $var == 16 {
+			@include grid-setup($var + 0.666)
+		}
+		@else if $var == 33 {
+			@include grid-setup($var + 0.333)
+		}
+		@else {
+			@include grid-setup($var)
+		}
+	}
+}
+
+.grid-nopadd {
+	padding-left: 0;
+	padding-right: 0;
+}
+.grid-nopadd-right {
+	padding-right: 0;
+}
+.grid-nopadd-left {
+	padding-left: 0;
+}
+.grid-center {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+.grid-right {
+	float: right;
+}
+
+@media only screen and (max-width:768px) {
+	*[class*=grid] {
+		float: none;
+		width: 90%;
+		margin: 3em auto;
+	}
+	.grid-nopadd {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	.grid-nopadd-right {
+		padding-right: 1em;
+	}
+	.grid-nopadd-left {
+		padding-left: 1em;
+	}
+}
