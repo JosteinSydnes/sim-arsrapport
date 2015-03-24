@@ -8,7 +8,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>SIM - Årsrapport 2015</title>
+		<title>SIM - Årsmelding 2014</title>
 
 		<meta name="description" content="SIM årsrapport 2015 for digitale media">
 		<meta name="author" content="oktanstord.no">
@@ -37,13 +37,22 @@
 		<!--[if lt IE 9]>
 			<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+
+		<?php $url = 'http://sim.as/arsmelding/'; ?>
+		<meta property="og:title" content="SIM - årsmelding 2014">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="<?php echo $url; ?>img/sim_arsmelding_2014.jpg">
+		<meta property="og:url" content="<?php echo $url; ?>">
+		<meta property="og:site_name" content="Årsmeldinga frå SIM 2014">
+		<meta property="og:description" content="Sunnhordland interkommunale miljøverk leverar årsmeldinga for 2014 digitalt.">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:creator" content="@oktanstord">
 	</head>
 
 	<body>
 
 		<div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 
 				<section data-background="img/start_bg_tile.png" data-background-size="188px" data-background-repeat="repeat" class="first-one">
@@ -143,31 +152,31 @@
 							<div class="grid33">
 								<div class="tilsett">
 									<img src="img/tilsette/terje-gilje.jpg" alt="Terje Gilje - Dagleg leiar">
-									<div class="stilling"><p>Terje Gilje - Dagleg leiar</p></div>
+									<div class="stilling"><p>Terje Gilje</p><p>Dagleg leiar</p></div>
 								</div>
 							</div>
 
 							<div class="grid33">
 								<div class="tilsett">
 									<img src="img/tilsette/kjell-egil-hollund.jpg" alt="Kjell Egil Hollund - Driftsleiar innsamling og kommunal drift">
-									<div class="stilling"><p>Kjell Egil Hollund - Driftsleiar innsamling og kommunal drift</p></div>
+									<div class="stilling"><p>Kjell Egil Hollund</p><p>Driftsleiar innsamling og kommunal drift</p></div>
 								</div>
 
 								<div class="tilsett">
 									<img src="img/tilsette/employee.jpg" alt="Jan Rolf Bekkevold - Driftsleiar slutthandsaming av avfall">
-									<div class="stilling"><p>Jan Rolf Bekkevold - Driftsleiar slutthandsaming av avfall</p></div>
+									<div class="stilling"><p>Jan Rolf Bekkevold</p><p>Driftsleiar slutthandsaming av avfall</p></div>
 								</div>
 							</div>
 
 							<div class="grid33">
 								<div class="tilsett">
 									<img src="img/tilsette/trude-veda.jpg" alt="Trude Vedå - Personal og økonomi">
-									<div class="stilling"><p>Trude Vedå - Personal og økonomi</p></div>
+									<div class="stilling"><p>Trude Vedå</p><p>Personal og økonomi</p></div>
 								</div>
 
 								<div class="tilsett">
 									<img src="img/tilsette/janne-hillersoy.jpg" alt="Janne Hillersøy - Plan innkjøp og kommunikasjon">
-									<div class="stilling"><p>Janne Hillersøy - Plan innkjøp og kommunikasjon</p></div>
+									<div class="stilling"><p>Janne Hillersøy</p><p>Plan innkjøp og kommunikasjon</p></div>
 								</div>
 							</div>
 						</div>
@@ -181,31 +190,31 @@
 							<div class="grid33">
 								<div class="tilsett">
 									<img src="img/tilsette/arild-vik.jpg" alt="Arild Vik - Rådgjevar">
-									<div class="stilling"><p>Arild Vik - Rådgjevar</p></div>
+									<div class="stilling"><p>Arild Vik</p><p>Rådgjevar</p></div>
 								</div>
 							</div>
 
 							<div class="grid33">
 								<div class="tilsett">
 									<img src="img/tilsette/employee.jpg" alt="Trine Tverborgvik - Kundehandsamarar">
-									<div class="stilling"><p>Trine Tverborgvik - Kundehandsamarar</p></div>
+									<div class="stilling"><p>Trine Tverborgvik</p><p>Kundehandsamarar</p></div>
 								</div>
 
 								<div class="tilsett">
 									<img src="img/tilsette/sissel-lonning.jpg" alt="Sissel Lønning - Kundehandsamarar">
-									<div class="stilling"><p>Sissel Lønning - Kundehandsamarar</p></div>
+									<div class="stilling"><p>Sissel Lønning</p><p>Kundehandsamarar</p></div>
 								</div>
 							</div>
 
 							<div class="grid33">
 								<div class="tilsett">
 									<img src="img/tilsette/linn-jeanett-okland.jpg" alt="Linn Jeanett Økland - Kundehandsamarar">
-									<div class="stilling"><p>Linn Jeanett Økland - Kundehandsamarar</p></div>
+									<div class="stilling"><p>Linn Jeanett Økland</p><p>Kundehandsamarar</p></div>
 								</div>
 
 								<div class="tilsett">
 									<img src="img/tilsette/employee.jpg" alt="Kristoffer Vik - Operatør deponi">
-									<div class="stilling"><p>Kristoffer Vik - Operatør deponi</p></div>
+									<div class="stilling"><p>Kristoffer Vik</p><p>Operatør deponi</p></div>
 								</div>
 							</div>
 						</div>
@@ -218,31 +227,31 @@
 							<div class="grid33">
 								<div class="tilsett">
 									<img src="img/tilsette/einar-breivik.jpg" alt="Einar Breivik - Operatør kompost">
-									<div class="stilling"><p>Einar Breivik - Operatør kompost</p></div>
+									<div class="stilling"><p>Einar Breivik</p><p>Operatør kompost</p></div>
 								</div>
 							</div>
 
 							<div class="grid33">
 								<div class="tilsett">
 									<img src="img/tilsette/olaf-skram.jpg" alt="Olaf Skram - Kundehandsamar miljøsentral/Operatør">
-									<div class="stilling"><p>Olaf Skram - Kundehandsamar miljøsentral/Operatør</p></div>
+									<div class="stilling"><p>Olaf Skram</p><p>Kundehandsamar miljøsentral/Operatør</p></div>
 								</div>
 
 								<div class="tilsett">
 									<img src="img/tilsette/employee.jpg" alt="Helge Sæterbø - Kundehandsamar miljøsentral/Operatør">
-									<div class="stilling"><p>Helge Sæterbø - Kundehandsamar miljøsentral/Operatør</p></div>
+									<div class="stilling"><p>Helge Sæterbø</p><p>Kundehandsamar miljøsentral/Operatør</p></div>
 								</div>
 							</div>
 
 							<div class="grid33">
 								<div class="tilsett">
 									<img src="img/tilsette/employee.jpg" alt="Kjell Bolme - Kundehandsamar miljøsentral/Operatør">
-									<div class="stilling"><p>Kjell Bolme - Kundehandsamar miljøsentral/Operatør</p></div>
+									<div class="stilling"><p>Kjell Bolme</p><p>Kundehandsamar miljøsentral/Operatør</p></div>
 								</div>
 
 								<div class="tilsett">
 									<img src="img/tilsette/employee.jpg" alt="Gro Andersen - Kundehandsamar miljøsentral/Operatør">
-									<div class="stilling"><p>Gro Andersen - Kundehandsamar miljøsentral/Operatør</p></div>
+									<div class="stilling"><p>Gro Andersen</p><p>Kundehandsamar miljøsentral/Operatør</p></div>
 								</div>
 							</div>
 						</div>
@@ -254,31 +263,31 @@
 							<div class="grid33">
 								<div class="tilsett">
 									<img src="img/tilsette/oscar-langballe.jpg" alt="Oscar Langballe - Kundehandsamar miljøsentral Kvinnherad">
-									<div class="stilling"><p>Oscar Langballe - Kundehandsamar miljøsentral Kvinnherad</p></div>
+									<div class="stilling"><p>Oscar Langballe</p><p>Kundehandsamar miljøsentral Kvinnherad</p></div>
 								</div>
 							</div>
 
 							<div class="grid33">
 								<div class="tilsett">
 									<img src="img/tilsette/svein-kvernenes.jpg" alt="Svein Kvernenes - Kundehandsamar miljøsentral Kvinnherad">
-									<div class="stilling"><p>Svein Kvernenes - Kundehandsamar miljøsentral Kvinnherad</p></div>
+									<div class="stilling"><p>Svein Kvernenes</p><p>Kundehandsamar miljøsentral Kvinnherad</p></div>
 								</div>
 
 								<div class="tilsett">
 									<img src="img/tilsette/jostein-johannessen.jpg" alt="Jostein Johannessen - Kundehandsamar miljøsentral Bømlo">
-									<div class="stilling"><p>Jostein Johannessen - Kundehandsamar miljøsentral Bømlo</p></div>
+									<div class="stilling"><p>Jostein Johannessen</p><p>Kundehandsamar miljøsentral Bømlo</p></div>
 								</div>
 							</div>
 
 							<div class="grid33">
 								<div class="tilsett">
 									<img src="img/tilsette/employee.jpg" alt="Kjell Frode Hole - Kundehandsamar miljøsentral Austevoll">
-									<div class="stilling"><p>Kjell Frode Hole - Kundehandsamar miljøsentral Austevoll</p></div>
+									<div class="stilling"><p>Kjell Frode Hole</p><p>Kundehandsamar miljøsentral Austevoll</p></div>
 								</div>
 
 								<div class="tilsett">
 									<img src="img/tilsette/inge-mikal-helland.jpg" alt="Inge Mikal Helland - Kundehandsamar miljøsentreal Tysnes">
-									<div class="stilling"><p>Inge Mikal Helland - Kundehandsamar miljøsentreal Tysnes</p></div>
+									<div class="stilling"><p>Inge Mikal Helland</p><p>Kundehandsamar miljøsentreal Tysnes</p></div>
 								</div>
 
 								<!-- <div class="tilsett">
@@ -580,11 +589,11 @@
 			<div class="nav-footer">
 				<nav class="grid50 grid-center">
 					<ul>
-						<li class="grid50"><a href="#">Dette er SIM</a></li>
-						<li class="grid50"><a href="#">Hovudtall</a></li>
-						<li class="grid50"><a href="#">Dagleg leiar</a></li>
+						<li class="grid50"><a href="#/1">Om oss</a></li>
+						<li class="grid50"><a href="#/3">Tilsette</a></li>
+						<li class="grid50"><a href="#/2">Dagleg leiar</a></li>
 						<li class="grid50"><a href="#">Historiar frå 2014</a></li>
-						<li class="grid50"><a href="#">Styret si årsmelding</a></li>
+						<li class="grid50"><a href="#/4">Styret si årsmelding</a></li>
 						<li class="grid50"><a href="#">Selskapsstruktur</a></li>
 						<li class="grid50"><a href="#">Kort om 2014</a></li>
 						<li class="grid50"><a href="#">Om årsmeldinga</a></li>
