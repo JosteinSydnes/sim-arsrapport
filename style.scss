@@ -17,8 +17,10 @@ $green-light: #73C697;
 $grey: #666666;
 $grey-light: #f0f0f0;
 $brown: #B28978;
+$brown-light: #C9BCA1;
 $blue: #14B3F0;
 $purple: #635D7C;
+$orange: #CC6F13;
 
 
 *,
@@ -305,7 +307,7 @@ text-align: right;
 		}
 	}
 	.chart-legends {
-		font-size: 0.75em;
+		font-size: 1em;
 		text-align: center;
 		margin: 20px auto;
 
@@ -325,6 +327,9 @@ text-align: right;
 			&.brown {
 				background: $brown;
 			}
+			&.brown-light {
+				background: $brown-light;
+			}
 			&.blue {
 				background: $blue;
 			}
@@ -334,6 +339,96 @@ text-align: right;
 			&.purple {
 				background: $purple;
 			}
+			&.orange {
+				background: $orange;
+			}
+		}
+	}
+	/*    TESTING CHART LEGEND FUNCTION
+	 ----------------------------------------*/
+	.chart-legends-test {
+		font-size: 1em;
+		text-align: center;
+		margin: 20px auto;
+
+		ul {
+			list-style: none;
+
+			li {
+				position: relative;
+				float: left;
+				height: 20px 0;
+				line-height: 20px;
+				padding: 0 10px 0 30px;
+				margin: 10px 0;
+
+				&:before {
+					position: absolute;
+					left: 0;
+					top: 0;
+					content: " ";
+					background: $green;
+					width: 20px;
+					height: 20px;
+					border-radius: 3px;
+				}
+				&.grey:before {
+				background: $grey;
+				}
+				&.brown:before {
+					background: $brown;
+				}
+				&.brown-light:before {
+					background: $brown-light;
+				}
+				&.blue:before {
+					background: $blue;
+				}
+				&.green-light:before {
+					background: $green-light;
+				}
+				&.purple:before {
+					background: $purple;
+				}
+				&.orange:before {
+					background: $orange;
+				}
+			}
+		}
+		.legend {
+			background: $green;
+			border-radius: 3px;
+
+			&.grey {
+				background: $grey;
+			}
+			&.brown {
+				background: $brown;
+			}
+			&.brown-light {
+				background: $brown-light;
+			}
+			&.blue {
+				background: $blue;
+			}
+			&.green-light {
+				background: $green-light;
+			}
+			&.purple {
+				background: $purple;
+			}
+			&.orange {
+				background: $orange;
+			}
+		}
+	}
+
+	.info-graphic {
+		text-align: center;
+		font-size: 4em;
+
+		i {
+			color: $green;
 		}
 	}
 }

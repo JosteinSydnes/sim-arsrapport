@@ -93,6 +93,125 @@ var husholdData = {
     ]
 };
 
+var visitsData = {
+	labels: ["2009", "2010", "2011", "2012", "2013", "2014"],
+	datasets: [
+		{
+			label: "Besøk på miljøsentralane",
+			fillColor: "rgba(0,124,102,0)",
+			strokeColor: "rgba(0,124,102,1)",
+			pointColor: "rgba(220,220,220,1)",
+			pointStrokeColor: "#fff",
+			pointHighlightFill: "#fff",
+			pointHighlightStroke: "rgba(220,220,220,1)",
+			data: [33581, 33780, 34609, 42028, 50790, 59030]
+		}
+	]
+};
+
+var ammountData = {
+	labels: ["2009", "2010", "2011", "2012", "2013", "2014"],
+	datasets: [
+		{
+			label: "Mengder levert på miljøsentralane",
+			fillColor: "rgba(0,124,102,0)",
+			strokeColor: "rgba(0,124,102,1)",
+			pointColor: "rgba(0,124,102,1)",
+			pointStrokeColor: "#fff",
+			pointHighlightFill: "#fff",
+			pointHighlightStroke: "rgba(0,124,102,1)",
+			data: [9481, 9284, 10818, 9167, 10852, 11521]
+		},
+		{
+			label: "Mengder levert totalt",
+			fillColor: "rgba(204,111,19,0)",
+			strokeColor: "rgba(204,111,19,1)",
+			pointColor: "rgba(204,111,19,1)",
+			pointStrokeColor: "#fff",
+			pointHighlightFill: "#fff",
+			pointHighlightStroke: "rgba(204,111,19,1)",
+			data: [23428, 24615, 25754, 23896, 25057, 25057]
+		}
+	]
+};
+
+var feesubData = {
+	labels: ["Austevoll", "Bømlo", "Fitjar", "Kvinnherad", "Stord", "Sveio", "Tysnes"],
+	datasets: [
+		{
+			label: "renovasjonsabonnement",
+			fillColor: "rgba(0,124,102,1)",
+            strokeColor: "#fff",
+            pointColor: "rgba(0,124,102,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(0,124,102,1)",
+			data: [2251, 2163, 2030, 2140, 2337, 2327, 2406]
+		},
+		{
+			label: "Abonnementsgebyr SIM",
+			fillColor: "rgba(71,119,151,1)",
+            strokeColor: "#fff",
+            pointColor: "rgba(71,119,151,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(71,119,151,1)",
+			data: [714, 714, 714, 714, 714, 714, 714]
+		},
+		{
+			label: "Kommunalt abonnementsgebyr",
+			fillColor: "rgba(204,111,19,1)",
+            strokeColor: "#fff",
+            pointColor: "rgba(204,111,19,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(204,111,19,1)",
+			data: [775, 700, 788, 725, 803, 940, 1180]
+		}
+	]
+};
+
+var feeusedData = [
+	{
+		value: 	756,
+		color:"rgb(0,124,102)",
+		highlight: "#26AD77",
+		label: "Innsamling"
+	},
+	{
+		value: 298,
+		color: "rgb(204,111,19)",
+		highlight: "#26AD77",
+		label: "Eigenkostnad"
+	},
+	{
+		value: 	455,
+		color: "rgb(115,198,151)",
+		highlight: "#26AD77",
+		label: "Miljøsentralar"
+	},
+	{
+		value: 223,
+		color: "rgb(71,119,151)",
+		highlight: "#26AD77",
+		label: "Sluttbehandling brensel"
+	},
+	{
+		value: 82,
+		color: "rgb(201,188,161)",
+		highlight: "#26AD77",
+		label: "Eigenkostnad kommunar"
+	}
+	,
+	{
+		value: 428,
+		color: "rgb(189,147,127)",
+		highlight: "#26AD77",
+		label: "Meirverdiavgift"
+	}
+
+];
+
 Chart.defaults.global.responsive = false;
 Chart.defaults.global.scaleFontFamily = "'Source Sans Pro', 'Helvetica', 'Arial', sans-serif";
 Chart.defaults.global.tooltipFontFamily = "'Source Sans Pro', 'Helvetica', 'Arial', sans-serif";
@@ -123,6 +242,30 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
 		var cthushold = $("#hushold-bar").get(0).getContext("2d");
 		var myBarHushold = new Chart(cthushold).Bar(husholdData, {
 			tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn"
+		});
+	}
+	if(state.indexh == 8 && state.indexv == 2) {
+		var ctvisits = $("#visits-sentral").get(0).getContext("2d");
+		var myLineVisits = new Chart(ctvisits).Line(visitsData, {
+			tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> besøkande",
+			datasetStrokeWidth : 4
+		});
+	}
+	if(state.indexh == 8 && state.indexv == 3) {
+		var ctammount = $("#ammount-sentral").get(0).getContext("2d");
+		var myLineAmmount = new Chart(ctammount).Line(ammountData, {
+			tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn",
+			datasetStrokeWidth : 4
+		});
+	}
+	if(state.indexh == 9 && state.indexv == 7) {
+		var ctfeesub = $("#fee-subscription").get(0).getContext("2d");
+		var myBarFeeSub = new Chart(ctfeesub).Bar(feesubData);
+	}
+	if(state.indexh == 9 && state.indexv == 8) {
+		var ctfeeused = $("#fee-used").get(0).getContext("2d");
+		var myBarFeeSub = new Chart(ctfeeused).Pie(feeusedData, {
+			tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> kr"
 		});
 	}
 });

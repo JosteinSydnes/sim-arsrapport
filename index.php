@@ -579,6 +579,129 @@
 					</section>
 				</section>
 
+				<section>
+					<section>
+						<h2>Miljøsentralen</h2>
+
+						<p>SIM har miljøsentral i alle eigarkommunane (7 stk). Ved SIM sine miljøsentralar kan innbyggjarane levera avfall dei ikkje har plass til, eller ikkje har lov til å kasta i behaldarane ein har fått utdelt av SIM. Innbyggjarane betalar om lag ein fjerdedel av kostnaden. Resten vert dekka gjennom renovasjonsgebyret. Næringslivet kan også nytta seg av miljøsentralen, men dei betalar faktiske kostnadar etter vekt/volum.</p>
+					</section>
+
+					<section>
+						<div class="info-graphic up">
+							<p><i class="fa fa-chevron-up"></i> 16%</p>
+						</div>
+
+						<p>SIM sine miljøsentralar hadde ein auke på i besøkstalet på 16 % frå 2013 til 2014 på . Mengda avfall levert til miljøsentralen er nokon lunde stabil.</p>
+					</section>
+
+					<section>
+						<h3>Besøk SIM sine miljøsentralar</h3>
+
+						<div class="canvas-holder">
+							<canvas id="visits-sentral" width="800" height="400"></canvas>
+							<p class="aligncenter">Besøk SIM sine miljøsentralar i 2014 var 59030 personar</p>
+						</div>
+					</section>
+
+					<section>
+						<h3>Mengder levert til SIM sine miljøsentralar</h3>
+
+						<div class="canvas-holder">
+							<canvas id="ammount-sentral" width="800" height="400"></canvas>
+							<p class="aligncenter">Mengder levert til SIM sine miljøsentralar i 2014 var 11521 tonn</p>
+						</div>
+
+						<div class="chart-legends">
+								Mengder levert til miljøstasjonar <span class="legend"></span>
+								Mengder levert til totalt <span class="legend orange"></span>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Attvinning</h2>
+
+						<div class="chart-legends-test">
+							<ul>
+								<li>Innsamling</li>
+								<li class="orange">Eigenkostnad </li>
+								<li class="green-light">Miljøsentralar </li>
+								<li class="blue">Sluttbehandling brensel </li>
+								<li class="brown-light">Eigenkostnad kommunar </li>
+								<li class="brown">Meirverdiavgift </li>
+							</ul>
+						</div>
+					</section>
+
+					<section>
+						<p>Avfall vert attvunne på tre måtar: Ombruk, materialattvinning og energiutnytting. Avfallshierarkiet viser kva som gjev best effekt med tanke på miljøet.</p>
+					</section>
+
+					<section>
+						<h3>Ombruk</h3>
+
+						<p>Me kallar det ombruk når folk tek i bruk gjenstandar andre har kvitta seg med. Døme er syklar, møblar, sportsutstyr, kvite- og brunevarer og klede.</p>
+					</section>
+
+					<section>
+						<h3>Materialattvinning</h3>
+
+						<p>Når avfall vert brukt som råstoff i nye produkt, vert det kalla materialattvinning. Døme er papir (de-ink) som blir til nytt papir til bruk i aviser/magasin.</p>
+					</section>
+
+					<section>
+						<h3>Energiutnytting</h3>
+
+						<p>Når avfall vert brukt som energikjelde, kallar ein det energiutnytting. Døme er når restavfall vert brent og nytta til oppvarming. I 2014 vart 98 % av hushaldsavfallet som SIM mottok frå medlemskommunane attvunne. I tillegg kom avfall som vart samla inn gjennom dei landsomfattande returordningane. SIM har ikkje tilgjengeleg statistikk for desse ordningane, som m.a. femner om pant på boksar og flasker, bilar og EE-avfall som blir levert direkte til forhandlar av slike produkt.</p>
+					</section>
+
+					<section>
+						<h3>Heimekompostering</h3>
+
+						<p>12 prosent av abonnentane komposterer bioavfallet sitt heime, om lag som i 2014. Totalt er det 2 987 registrerte bingar. I tillegg kjem 457 kundar som deler binge med andre. Abonnentar som komposterer heime, slepp å betala for biodunk og bioposar, dei produserer sitt eige jordforbetringsmiddel, og dei treng ikkje reingjera og setja ut biodunken. Om kvar innbyggjar produserer 90 kilo bioavfall i året, vart det i 2014 heimekompostert 775 tonn avfall.</p>
+					</section>
+
+					<section>
+						<h3>Renovasjonsgebyr</h3>
+
+						<p>Renovasjonsgebyret som kundane betalar er ein kombinasjon av dunkgebyr (ca. 70 %) og abonnementsgebyr (ca. 30 %). Abonnementsgebyret ut frå SIM er likt. Likevel betalar kundane ulikt for renovasjonstenestene. Årsaka til dette er at kommunane legg på gebyret for å dekka sine utgifter med renovasjonsordninga. Påslaget varierer frå kommune til kommune. Også for hyttekundar er renovasjonsgebyret i utgangspunktet likt. Årsaka til at betalingssatsane likevel varierer, er den same som over. Alt i alt er det SIM, og ikkje kommunane, som tek den økonomiske risikoen med endringar i avfallsmengda.</p>
+					</section>
+
+					<section>
+						<h3>Renovasjonsabonnement og kommunaltgebyr i 2014</h3>
+
+						<div class="canvas-holder">
+							<canvas id="fee-subscription" width="800" height="400"></canvas>
+						</div>
+
+						<div class="chart-legends">
+							renovasjonsabonnement<span class="legend"></span>
+							Abonnementsgebyr SIM <span class="legend blue"></span>
+							Abonnementsgebyr Kommune <span class="legend orange"></span>
+						</div>
+					</section>
+
+					<section>
+						<h3>Dette går gebyret til</h3>
+
+						<div class="canvas-holder">
+							<canvas id="fee-used" width="400" height="400"></canvas>
+						</div>
+
+						<div class="chart-legends">
+							Innsamling<span class="legend"></span>
+							Eigenkostnad <span class="legend orange"></span>
+							Miljøsentralar <span class="legend green-light"></span>
+							Sluttbehandling brensel <span class="legend blue"></span>
+							Eigenkostnad kommunar <span class="legend brown-light"></span>
+							Meirverdiavgift <span class="legend brown"></span>
+						</div>
+
+						<p class="aligncenter">Rekna ut frå eit snittgebyr på 2049 kroner i 2014</p>
+					</section>
+				</section>
+
 			</div>
 
 		</div>
