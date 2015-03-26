@@ -18,10 +18,16 @@ $grey: #666666;
 $grey-light: #f0f0f0;
 $brown: #B28978;
 $brown-light: #C9BCA1;
+$blue-grey-rgb: rgb(124,159,177);
 $blue: #14B3F0;
+$blue-light-rgb: rgb(169,216,243);
 $purple: #635D7C;
+$purple-light-rgb: rgb(215,119,227);
 $orange: #CC6F13;
-
+$magenta-rgb: rgb(228,74,138);
+$yellow-rgb: rgb(241,167,26);
+$yellow-light-rgb: rgb(216,187,25);
+$red-rgb: rgb(205,26,29);
 
 *,
 *:after,
@@ -213,7 +219,9 @@ text-align: center;
 .alignright {
 text-align: right;
 }
-
+.text-shadow {
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
 .reveal {
 	.first-one {
 		text-align: center;
@@ -307,47 +315,7 @@ text-align: right;
 		}
 	}
 	.chart-legends {
-		font-size: 1em;
-		text-align: center;
-		margin: 20px auto;
-
-		.legend {
-			position: relative;
-			top: 0.2em;
-			background: $green;
-			display: inline-block;
-			width: 1em;
-			height: 1em;
-			margin:0 20px;
-			border-radius: 0.5em;
-
-			&.grey {
-				background: $grey;
-			}
-			&.brown {
-				background: $brown;
-			}
-			&.brown-light {
-				background: $brown-light;
-			}
-			&.blue {
-				background: $blue;
-			}
-			&.green-light {
-				background: $green-light;
-			}
-			&.purple {
-				background: $purple;
-			}
-			&.orange {
-				background: $orange;
-			}
-		}
-	}
-	/*    TESTING CHART LEGEND FUNCTION
-	 ----------------------------------------*/
-	.chart-legends-test {
-		font-size: 1em;
+		font-size: 0.8em;
 		text-align: center;
 		margin: 20px auto;
 
@@ -360,7 +328,7 @@ text-align: right;
 				height: 20px 0;
 				line-height: 20px;
 				padding: 0 10px 0 30px;
-				margin: 10px 0;
+				margin: 10px 5px 10px 0;
 
 				&:before {
 					position: absolute;
@@ -384,41 +352,36 @@ text-align: right;
 				&.blue:before {
 					background: $blue;
 				}
+				&.blue-light:before {
+					background: $blue-light-rgb;
+				}
+				&.blue-grey:before {
+					background: $blue-grey-rgb;
+				}
 				&.green-light:before {
 					background: $green-light;
 				}
 				&.purple:before {
 					background: $purple;
 				}
+				&.purple-light:before {
+					background: $purple-light-rgb;
+				}
 				&.orange:before {
 					background: $orange;
 				}
-			}
-		}
-		.legend {
-			background: $green;
-			border-radius: 3px;
-
-			&.grey {
-				background: $grey;
-			}
-			&.brown {
-				background: $brown;
-			}
-			&.brown-light {
-				background: $brown-light;
-			}
-			&.blue {
-				background: $blue;
-			}
-			&.green-light {
-				background: $green-light;
-			}
-			&.purple {
-				background: $purple;
-			}
-			&.orange {
-				background: $orange;
+				&.magenta:before {
+					background: $magenta-rgb;
+				}
+				&.yellow:before {
+					background: $yellow-rgb;
+				}
+				&.yellow-light:before {
+					background: $yellow-light-rgb;
+				}
+				&.red:before {
+					background: $red-rgb;
+				}
 			}
 		}
 	}
@@ -431,8 +394,23 @@ text-align: right;
 			color: $green;
 		}
 	}
-}
 
+
+}
+#beachvid {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: auto;
+	min-width: 100%;
+	height: auto;
+	min-height: 100%;
+	margin: auto;
+	opacity: 0;
+	z-index: -1;
+}
 
 
 .footer {

@@ -30,9 +30,6 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="js/chart.min.js"></script>
-		<script src="js/script.js"></script>
 
 		<!--[if lt IE 9]>
 			<script src="lib/js/html5shiv.js"></script>
@@ -47,6 +44,29 @@
 		<meta property="og:description" content="Sunnhordland interkommunale miljøverk leverar årsmeldinga for 2014 digitalt.">
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:creator" content="@oktanstord">
+
+		<?php
+		function addlegends($legends, $info = null) {
+			$output = ''; // the return variable
+			if(is_array($legends)) { // add legendlist to output if $legends is array
+				$output .= '<div class="chart-legends clear">';
+				$output .= '<ul class="legends">';
+				foreach ($legends as $legend) {
+					$output .= '<li class="'. $legend['color'] .'">'. $legend['title'] .'</li>';
+				}
+				$output .= '</ul>';
+				$output .= '</div>';
+			}
+			else { // legends is not array
+				$output .= '<p>Du må bruke legends parameter som array.</p>';
+			}
+			if($info) { // output chart if description is set
+				$output .= '<p class="aligncenter">'. $info .'</p>';
+			}
+
+			echo $output; // return output
+		}
+		?>
 	</head>
 
 	<body>
@@ -301,7 +321,7 @@
 
 				<section>
 					<section>
-						<h2>Styret si årsmelding</h2>
+						<h2 class="aligncenter color-white text-shadow">Styret si årsmelding</h2>
 					</section>
 
 					<section>
@@ -391,7 +411,7 @@
 					</section>
 				</section>
 
-				<section data-background="img/backgrounds/sortering.jpg">
+				<section class="color-white" data-background="img/backgrounds/sortering_dark.jpg">
 					<section>
 						<h2>Ditt avfall</h2>
 						<p>Mengda av innsamla hushaldsavfall på renovasjonsrutene hadde ein liten auke frå 2013 til 2014, medan mengda innsamla hytteavfall var nokonlunde den same. Innsamla næringsavfall på renovasjonsrutene hadde ein nedgong i 2014. Medan besøka på miljøsentralane auka kraftig i fjoråret.</p>
@@ -469,7 +489,7 @@
 					</section>
 				</section>
 
-				<section data-markdown>
+				<section class="color-white text-shadow" data-background="img/backgrounds/glas.jpg">
 					<section>
 						<h2>Vårt samfunn</h2>
 					</section>
@@ -533,11 +553,15 @@
 							<canvas id="chart-area" class="center-chart" width="400" height="400"></canvas>
 							<p class="aligncenter">Til saman: 15 128 tonn</p>
 						</div>
-						<div class="chart-legends">
-								Restavfall: <span class="legend grey"></span>
-								Bio: <span class="legend brown"></span>
-								Papir: <span class="legend blue"></span>
-						</div>
+
+						<?php
+						$legends = array(
+										array('title' => 'Restavfall', 'color' => 'grey'),
+										array('title' => 'Bio', 'color' => 'brown'),
+										array('title' => 'Papir', 'color' => 'blue')
+						);
+						addlegends($legends);
+						?>
 					</section>
 
 					<section>
@@ -547,9 +571,7 @@
 							<canvas id="bar-chart" width="600" height="400"></canvas>
 						</div>
 
-						<div class="chart-legends">
-								Mengder i tonn: <span class="legend"></span>
-						</div>
+						<p class="aligncenter">Mengder i tonn</p>
 					</section>
 
 					<section>
@@ -557,16 +579,17 @@
 
 						<div class="canvas-holder">
 							<canvas id="pie-avfallsmengder" width="400" height="400"></canvas>
-							<p class="aligncenter">Til saman: 45 753 tonn</p>
 						</div>
-
-						<div class="chart-legends">
-								Hushaldsavfall til attvinning <span class="legend"></span>
-								Hushaldsavfall til deponi <span class="legend brown"></span>
-								Næringsavfall til deponi <span class="legend green-light"></span>
-								Næringsavfall til attvinning <span class="legend purple"></span>
-								Slam <span class="legend blue"></span>
-						</div>
+						<?php
+						$legends = array(
+								array('title' => 'Hushaldsavfall til attvinning', 'color' => 'green'),
+								array('title' => 'Hushaldsavfall til deponi', 'color' => 'brown'),
+								array('title' => 'Næringsavfall til deponi', 'color' => 'green-light'),
+								array('title' => 'Næringsavfall til attvinning', 'color' => 'purple'),
+								array('title' => 'Slam', 'color' => 'blue')
+						);
+						addlegends($legends, "Til saman 45 753 tonn");
+						?>
 					</section>
 
 					<section>
@@ -574,8 +597,24 @@
 
 						<div class="canvas-holder">
 							<canvas id="hushold-bar" width="800" height="400"></canvas>
-							<p class="aligncenter">Totalt: 25 057 tonn</p>
 						</div>
+
+						<?php
+						$legends = array(
+							array('title' => 'Avfallsbrensel', 'color' => 'grey'),
+							array('title' => 'Våtorganisk', 'color' => 'brown'),
+							array('title' => 'Heimekompostering', 'color' => 'brown-light'),
+							array('title' => 'Papir', 'color' => 'blue'),
+							array('title' => 'Glas', 'color' => 'blue-light'),
+							array('title' => 'Stål', 'color' => 'blue-grey'),
+							array('title' => 'EE-avfall', 'color' => 'magenta'),
+							array('title' => 'Hageavfall', 'color' => 'green'),
+							array('title' => 'Gips', 'color' => 'yellow-light'),
+							array('title' => 'Trevirke', 'color' => 'purple-light'),
+							array('title' => 'Plast', 'color' => 'yellow'),
+						);
+						addlegends($legends, "Totalt 25 057 tonn")
+						?>
 					</section>
 				</section>
 
@@ -599,8 +638,10 @@
 
 						<div class="canvas-holder">
 							<canvas id="visits-sentral" width="800" height="400"></canvas>
-							<p class="aligncenter">Besøk SIM sine miljøsentralar i 2014 var 59030 personar</p>
 						</div>
+
+						<p class="aligncenter">Besøk SIM sine miljøsentralar i 2014 var 59030 personar</p>
+
 					</section>
 
 					<section>
@@ -608,30 +649,21 @@
 
 						<div class="canvas-holder">
 							<canvas id="ammount-sentral" width="800" height="400"></canvas>
-							<p class="aligncenter">Mengder levert til SIM sine miljøsentralar i 2014 var 11521 tonn</p>
 						</div>
 
-						<div class="chart-legends">
-								Mengder levert til miljøstasjonar <span class="legend"></span>
-								Mengder levert til totalt <span class="legend orange"></span>
-						</div>
+						<?php
+						$legends = array(
+							array('title' => 'Mengder levert til miljøstasjonar', 'color' => 'green'),
+							array('title' => 'Mengder levert til totalt', 'color' => 'orange')
+						);
+						addlegends($legends, "Mengder levert til SIM sine miljøsentralar i 2014 var 11521 tonn")
+						?>
 					</section>
 				</section>
 
 				<section>
 					<section>
 						<h2>Attvinning</h2>
-
-						<div class="chart-legends-test">
-							<ul>
-								<li>Innsamling</li>
-								<li class="orange">Eigenkostnad </li>
-								<li class="green-light">Miljøsentralar </li>
-								<li class="blue">Sluttbehandling brensel </li>
-								<li class="brown-light">Eigenkostnad kommunar </li>
-								<li class="brown">Meirverdiavgift </li>
-							</ul>
-						</div>
 					</section>
 
 					<section>
@@ -675,11 +707,14 @@
 							<canvas id="fee-subscription" width="800" height="400"></canvas>
 						</div>
 
-						<div class="chart-legends">
-							renovasjonsabonnement<span class="legend"></span>
-							Abonnementsgebyr SIM <span class="legend blue"></span>
-							Abonnementsgebyr Kommune <span class="legend orange"></span>
-						</div>
+						<?php
+							$legends = array(
+											array('title' => 'Renovasjonsabonnement', 'color' => 'green'),
+											array('title' => 'Abonnementsgebyr Kommune', 'color' => 'orange')
+							);
+
+							addlegends($legends);
+						?>
 					</section>
 
 					<section>
@@ -689,16 +724,18 @@
 							<canvas id="fee-used" width="400" height="400"></canvas>
 						</div>
 
-						<div class="chart-legends">
-							Innsamling<span class="legend"></span>
-							Eigenkostnad <span class="legend orange"></span>
-							Miljøsentralar <span class="legend green-light"></span>
-							Sluttbehandling brensel <span class="legend blue"></span>
-							Eigenkostnad kommunar <span class="legend brown-light"></span>
-							Meirverdiavgift <span class="legend brown"></span>
-						</div>
+						<?php
+							$legends = array(
+											array('title' => 'Innsamling', 'color' => 'green'),
+											array('title' => 'Eigenkostnad', 'color' => 'orange'),
+											array('title' => 'Miljøsentralar', 'color' => 'green-light'),
+											array('title' => 'Sluttbehandling brensel', 'color' => 'blue'),
+											array('title' => 'Eigenkostnad kommunar', 'color' => 'brown-light'),
+											array('title' => 'Meirverdiavgift', 'color' => 'brown')
+							);
 
-						<p class="aligncenter">Rekna ut frå eit snittgebyr på 2049 kroner i 2014</p>
+							addlegends($legends, "Rekna ut frå eit snittgebyr på 2049 kroner i 2014");
+						?>
 					</section>
 				</section>
 
@@ -706,20 +743,21 @@
 
 		</div>
 
-
 		<footer class="footer">
 
 			<div class="nav-footer">
 				<nav class="grid50 grid-center">
 					<ul>
+						<li class="grid50"><a href="#">Start</a></li>
 						<li class="grid50"><a href="#/1">Om oss</a></li>
 						<li class="grid50"><a href="#/3">Tilsette</a></li>
 						<li class="grid50"><a href="#/2">Dagleg leiar</a></li>
-						<li class="grid50"><a href="#">Historiar frå 2014</a></li>
 						<li class="grid50"><a href="#/4">Styret si årsmelding</a></li>
-						<li class="grid50"><a href="#">Selskapsstruktur</a></li>
-						<li class="grid50"><a href="#">Kort om 2014</a></li>
-						<li class="grid50"><a href="#">Om årsmeldinga</a></li>
+						<li class="grid50"><a href="#/5">Ditt avfall</a></li>
+						<li class="grid50"><a href="#/6">Vårt samfunn</a></li>
+						<li class="grid50"><a href="#/7">Avfallsmengder</a></li>
+						<li class="grid50"><a href="#/8">Miljøsentralen</a></li>
+						<li class="grid50"><a href="#/9">Attvinning</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -741,6 +779,9 @@
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/chart.min.js"></script>
+
 		<script>
 			Reveal.initialize({
 				controls: true,
@@ -748,10 +789,12 @@
 				history: true,
 				center: true,
 				maxScale: 1,
+			    margin: 0,
 
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
+				transition: 'slide' // none/fade/slide/convex/concave/zoom
 			});
 		</script>
+		<script src="js/script.js"></script>
 		<script src="js/custom-charts.js"></script>
 	</body>
 </html>
