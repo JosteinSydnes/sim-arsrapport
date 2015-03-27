@@ -143,7 +143,7 @@
 </section>
 
 <section>
-	<h3>SIM sin praksis for2014</h3>
+	<h3>SIM sin praksis for 2014</h3>
 
 	<p>Styret meiner at ein føl rettleiaren for sjølvkost så langt det er mogeleg utan å bryta lover, forskrifter og selskapsavtalen, som er bindande for selskapet.</p>
 

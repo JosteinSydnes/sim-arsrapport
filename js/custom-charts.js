@@ -310,3 +310,7 @@ Chart.defaults.global.responsive = false;
 Chart.defaults.global.scaleFontFamily = "'Source Sans Pro', 'Helvetica', 'Arial', sans-serif";
 Chart.defaults.global.tooltipFontFamily = "'Source Sans Pro', 'Helvetica', 'Arial', sans-serif";
 Chart.defaults.global.tooltipTitleFontFamily = "'Source Sans Pro', 'Helvetica', 'Arial', sans-serif";
+Chart.defaults.global.tooltipFontSize = 16;
+Chart.defaults.global.tooltipTitleFontSize = 18;
+Chart.defaults.global.tooltipYPadding = 10;
+Chart.defaults.global.tooltipXPadding = 10;

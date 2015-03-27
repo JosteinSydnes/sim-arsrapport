@@ -4,8 +4,8 @@
 	<div class="tilsette clear">
 		<div class="grid33">
 			<div class="tilsett">
-				<img src="img/tilsette/terje-gilje-la.jpg" alt="Terje Gilje - Dagleg leiar">
-				<div class="stilling"><p>Terje Gilje</p><p>Dagleg leiar</p></div>
+				<img src="img/tilsette/arild-vik-la.jpg" alt="Arild Vik - Rådgjevar">
+				<div class="stilling"><p>Arild Vik</p><p>Rådgjevar</p></div>
 			</div>
 		</div>
 
@@ -42,8 +42,8 @@
 
 		<div class="grid33">
 			<div class="tilsett">
-				<img src="img/tilsette/arild-vik-la.jpg" alt="Arild Vik - Rådgjevar">
-				<div class="stilling"><p>Arild Vik</p><p>Rådgjevar</p></div>
+				<img src="img/tilsette/kjell-tore-hole-la.jpg" alt="Kjell Frode Hole - Kundehandsamar miljøsentral Austevoll">
+				<div class="stilling"><p>Kjell Frode Hole</p><p>Kundehandsamar miljøsentral Austevoll</p></div>
 			</div>
 		</div>
 
@@ -116,8 +116,32 @@
 	<div class="tilsette clear">
 		<div class="grid33">
 			<div class="tilsett">
-				<img src="img/tilsette/kjell-tore-hole-la.jpg" alt="Kjell Frode Hole - Kundehandsamar miljøsentral Austevoll">
-				<div class="stilling"><p>Kjell Frode Hole</p><p>Kundehandsamar miljøsentral Austevoll</p></div>
+				<img src="img/tilsette/terje-gilje-la.jpg" alt="Terje Gilje - Dagleg leiar">
+				<div class="stilling"><p>Terje Gilje</p><p>Dagleg leiar</p></div>
+			</div>
+		</div>
+
+		<div class="grid33">
+			<div class="tilsett">
+				<img src="img/tilsette/employee.jpg" alt="Trine Tverborgvik - Kundehandsamarar">
+				<div class="stilling"><p>Trine Tverborgvik</p><p>Kundehandsamarar</p></div>
+			</div>
+
+			<div class="tilsett">
+				<img src="img/tilsette/employee.jpg" alt="Kristoffer Vik - Operatør deponi">
+				<div class="stilling"><p>Kristoffer Vik</p><p>Operatør deponi</p></div>
+			</div>
+		</div>
+
+		<div class="grid33">
+			<div class="tilsett">
+				<img src="img/tilsette/employee.jpg" alt="Helge Sæterbø - Kundehandsamar miljøsentral">
+				<div class="stilling"><p>Helge Sæterbø</p><p>Kundehandsamar miljøsentral</p></div>
+			</div>
+
+			<div class="tilsett">
+				<img src="img/tilsette/employee.jpg" alt="Gro Andersen - Kundehandsamar miljøsentral">
+				<div class="stilling"><p>Gro Andersen</p><p>Kundehandsamar miljøsentral</p></div>
 			</div>
 		</div>
 	</div>

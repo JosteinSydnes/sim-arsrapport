@@ -18,6 +18,9 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
+		<link href="img/favicon.ico" rel="shortcut icon">
+		<link href="img/touch.png" rel="apple-touch-icon-precomposed">
+
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700">
 
 		<link rel="stylesheet" href="style.css" id="theme">
@@ -49,7 +52,7 @@
 		function addlegends($legends, $info = null) {
 			$output = ''; // the return variable
 			if(is_array($legends)) { // add legendlist to output if $legends is array
-				$output .= '<div class="chart-legends clear">';
+				$output .= '<div class="chart-legends">';
 				$output .= '<ul class="legends">';
 				foreach ($legends as $legend) {
 					$output .= '<li class="'. $legend['color'] .'">'. $legend['title'] .'</li>';
@@ -77,7 +80,7 @@
 
 				<section data-background="img/start_bg_tile.png" data-background-size="188px" data-background-repeat="repeat" class="first-one">
 					<a href="#"><img src="img/sim-logo.svg" alt="SIM logo"></a>
-					<h1 class="simcolor">Årsmelding 2014</h1>
+					<h1 class="color-green">Årsmelding 2014</h1>
 				</section>
 
 				<section data-background="img/backgrounds/hallen_heiane.jpg">
@@ -87,7 +90,7 @@
 				</section>
 
 
-				<section data-background="img/backgrounds/terje_gilje.jpg">
+				<section>
 
 					<?php require_once('slides/dagleg_leiar.php'); ?>
 
@@ -105,7 +108,7 @@
 
 				</section>
 
-				<section class="color-white" data-background="img/backgrounds/sortering_dark.jpg">
+				<section class="color-white text-shadow" data-background="img/backgrounds/sortering.jpg">
 
 					<?php require_once('slides/ditt_avfall.php'); ?>
 
@@ -144,6 +147,8 @@
 			</div>
 
 		</div>
+
+		<video id="beachvid" autoplay loop poster="img/backgrounds/video/sponavik.jpg"><source src="img/backgrounds/video/sponavik.mp4" type="video/mp4"><source src="img/backgrounds/video/sponavik.webm" type="vid/webm"><p>Nettlesaren din støttar ikkje html5 video, ver venleg å oppdater.</p></video>
 
 		<footer class="footer">
 

@@ -39,6 +39,7 @@ $red-rgb: rgb(205,26,29);
 	text-rendering: optimizeLegibility;
 }
 body {
+	background: #eeeeee;
 	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
 	font-weight: 300;
 	font-size: 1.2em;
@@ -206,7 +207,7 @@ body {
 
 /*    CUSTOM STYLES
  ----------------------------------------*/
-.simcolor {
+.color-green {
 color: $green;
 }
 .color-white {
@@ -235,8 +236,8 @@ text-align: right;
 			border-radius: 20px;
 		}
 		* {
-			background: #fff;
-			@include radial-gradient(rgba(255,255,255,0.7), rgba(255,255,255,1));
+			//background: #fff;
+			//@include radial-gradient(rgba(255,255,255,0.7), rgba(255,255,255,1));
 		}
 	}
 
@@ -300,79 +301,85 @@ text-align: right;
 		canvas {
 			display: block;
 			margin: 40px auto;
+			overflow: visible;
 		}
 	}
-	.chart-legends {
-		font-size: 0.8em;
-		text-align: center;
-		margin: 20px auto;
+	.chart {
 
-		ul {
-			list-style: none;
+		.chart-legends {
+			font-size: 0.8em;
+			margin: 20px auto;
 
-			li {
-				position: relative;
-				float: left;
-				height: 20px 0;
-				line-height: 20px;
-				padding: 0 10px 0 30px;
-				margin: 10px 5px 10px 0;
+			ul {
+				list-style: none;
 
-				&:before {
-					position: absolute;
-					left: 0;
-					top: 0;
-					content: " ";
-					background: $green;
-					width: 20px;
-					height: 20px;
-					border-radius: 3px;
-				}
-				&.grey:before {
-				background: $grey;
-				}
-				&.brown:before {
-					background: $brown;
-				}
-				&.brown-light:before {
-					background: $brown-light;
-				}
-				&.blue:before {
-					background: $blue;
-				}
-				&.blue-light:before {
-					background: $blue-light-rgb;
-				}
-				&.blue-grey:before {
-					background: $blue-grey-rgb;
-				}
-				&.green-light:before {
-					background: $green-light;
-				}
-				&.purple:before {
-					background: $purple;
-				}
-				&.purple-light:before {
-					background: $purple-light-rgb;
-				}
-				&.orange:before {
-					background: $orange;
-				}
-				&.magenta:before {
-					background: $magenta-rgb;
-				}
-				&.yellow:before {
-					background: $yellow-rgb;
-				}
-				&.yellow-light:before {
-					background: $yellow-light-rgb;
-				}
-				&.red:before {
-					background: $red-rgb;
+				li {
+					position: relative;
+					height: 20px 0;
+					line-height: 20px;
+					padding: 0 0 0 30px;
+					margin: 10px 0;
+
+					&:before {
+						position: absolute;
+						left: 0;
+						top: 0;
+						content: " ";
+						background: $green;
+						width: 20px;
+						height: 20px;
+						border-radius: 3px;
+					}
+					&.grey:before {
+					background: $grey;
+					}
+					&.brown:before {
+						background: $brown;
+					}
+					&.brown-light:before {
+						background: $brown-light;
+					}
+					&.blue:before {
+						background: $blue;
+					}
+					&.blue-light:before {
+						background: $blue-light-rgb;
+					}
+					&.blue-grey:before {
+						background: $blue-grey-rgb;
+					}
+					&.green-light:before {
+						background: $green-light;
+					}
+					&.purple:before {
+						background: $purple;
+					}
+					&.purple-light:before {
+						background: $purple-light-rgb;
+					}
+					&.orange:before {
+						background: $orange;
+					}
+					&.magenta:before {
+						background: $magenta-rgb;
+					}
+					&.yellow:before {
+						background: $yellow-rgb;
+					}
+					&.yellow-light:before {
+						background: $yellow-light-rgb;
+					}
+					&.red:before {
+						background: $red-rgb;
+					}
 				}
 			}
 		}
+		p {
+			text-align: center;
+		}
 	}
+
 
 	.info-graphic {
 		text-align: center;
@@ -394,11 +401,12 @@ text-align: right;
 
 	.nice-table {
 		width: 100%;
+		margin: 20px 0;
 		border-collapse: collapse;
 
 		tr {
 			&:nth-of-type(2n + 2) {
-				background: $grey-light;
+				background: $grey-light - 10;
 			}
 
 			&:hover {

@@ -1,5 +1,10 @@
 <section>
-	<h2 class="aligncenter color-white text-shadow">Styret si årsmelding</h2>
+	<h2 class="aligncenter">Styret si årsmelding</h2>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
 </section>
 
 <section>
@@ -20,12 +25,11 @@
 </section>
 
 <section>
+
 	<h3>Finansiell risiko</h3>
 
 	<p>SIM sin strategi er å investera med låg til moderat risiko. Overskotslikviditeten er plassert i bank, styret meiner plasseringa inneber låg risiko for selskapet.</p>
-</section>
 
-<section>
 	<h3>Arbeidsmiljø og personale</h3>
 
 	<p>Ved utgangen av 2014 var det 18,5 årsverk i SIM. Fem av dei tilsette var kvinner. Sjukefråværet var på 6,6 %. Det vart ikkje registrert yrkesskadar eller yrkessjukdom som førte til fråvær, og styra er ikkje kjent med at noko av fråværet skuldast arbeidstilhøve.</p>
@@ -42,9 +46,7 @@
 	<p>Den nedadgåande trenden for nitrogennivået i sigevatnet dei siste åra held fram i 2014, der det gjennomsnittlege nivået for nitrogen i 2014 var det lågaste dei siste fire årene.</p>
 
 	<p>Sigevatnet hadde i 2014 eit jern-nivå som var på linje med tidlegare år. Metallnivået i sigevatnet har variert ein god del igjennom dei siste fire åra, men generelt er jernnivået moderat i sigevatnet frå Svartasmoget. Tungmetallnivået er generelt lågt for dei fleste metall. Tungmetall vil generelt vise seg i låge konsentrasjoner i sigevatn fra kommunale deponi sidan dei fleste slike metall lett blir bundne i avfallsmassane i form av tungt løselige sulfid. Som tidligere år vart det påvist eit svært lågt nivå, eller ikkje kadmium og kvikksølv.</p>
-</section>
 
-<section>
 	<h3>Konsern</h3>
 
 	<p>Dotterselskapa i SIM-konsernet vart selde i september 2014. SIM Næring AS og SIM Tankrenovasjon AS. SIM Næring AS var 100 % eigd av SIM og hadde transport og drift av avfallsordningar for næringslivet som hovudaktivitet. SIM Tankrenovasjon AS var 100 % eigd av SIM Næring AS og tilbydde suge- og spyletenester, røyrinspeksjon, røyrfornying, slamtømming og innsamling av farleg avfall.</p>
@@ -56,9 +58,7 @@
 	<p>SIM vil leggja til rette for auke sortering også i framtida. Ein er budd på auke i besøkstalet på miljøsentralane og er godt i gong med bygging av ny miljøsentral på Bømlo. Selskapet skal byggja reinseanlegg i Svartasmoget og ein skal starte planlegging av garderobar og mogeleg administrasjonsbygg på Heiane.</p>
 
 	<p>Styret kjenner seg trygg på at SIM også i framtida kan gje kundane ei god og kostnadseffektiv renovasjonsordning.</p>
-</section>
 
-<section>
 	<h3 class="aligncenter">Fitjar, 17. mars 2015.</h3>
 
 	<div class="styre-signatur">
