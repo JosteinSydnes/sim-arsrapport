@@ -23,6 +23,26 @@
 			});
 		});
 
+		var counterId;
+		var start;
+		function countNum(selector, to, incr) {
+			var el = $("." + selector);
+			start = start + incr;
+			if(start >= to) {
+				clearInterval(counterId);
+				start = to;
+			}
+			el.html(start);
+		}
+		function setCounter(classname, from, to, incr, speed) {
+			start = from;
+			$("."+classname).html(start);
+			counterId = setInterval(function(){
+				countNum(classname, to, incr);
+			}, speed);
+		}
+
+
 		Reveal.addEventListener( 'slidechanged', function( event ) {
 
 			if(event.indexh == 4 && event.indexv == 0) {
@@ -32,6 +52,14 @@
 			else {
 				$('#beachvid').fadeOut(400);
 				$('#beachvid').remove();
+			}
+
+			if(event.indexh == 5 && event.indexv == 1) {
+				setCounter("countmeup", 0, 16, 1, 50);
+			}
+
+			if(event.indexh == 8 && event.indexv == 1) {
+				setCounter("miljocount", 0, 59030, 101, 1);
 			}
 
 			if(event.indexh == 7 && event.indexv == 1) {
@@ -73,11 +101,11 @@
 					datasetStrokeWidth : 4
 				});
 			}
-			if(event.indexh == 9 && event.indexv == 7) {
+			if(event.indexh == 9 && event.indexv == 6) {
 				var ctfeesub = $("#fee-subscription").get(0).getContext("2d");
 				var myBarFeeSub = new Chart(ctfeesub).Bar(feesubData);
 			}
-			if(event.indexh == 9 && event.indexv == 8) {
+			if(event.indexh == 9 && event.indexv == 7) {
 				var ctfeeused = $("#fee-used").get(0).getContext("2d");
 				var myBarFeeSub = new Chart(ctfeeused).Pie(feeusedData, {
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> kr"

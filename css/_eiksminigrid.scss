@@ -45,21 +45,3 @@
 .grid-right {
 	float: right;
 }
-
-@media only screen and (max-width:768px) {
-	*[class*=grid] {
-		float: none;
-		width: 90%;
-		margin: 3em auto;
-	}
-	.grid-nopadd {
-		padding-left: 1em;
-		padding-right: 1em;
-	}
-	.grid-nopadd-right {
-		padding-right: 1em;
-	}
-	.grid-nopadd-left {
-		padding-left: 1em;
-	}
-}

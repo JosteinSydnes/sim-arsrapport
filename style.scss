@@ -78,7 +78,6 @@ body {
 	text-shadow:none;
 }
 
-
 /*    CLEARFIX
 ----------------------------------------*/
 .clear:before,
@@ -273,6 +272,7 @@ text-align: right;
 				bottom: 0.5em;
 				color: #ffffff;
 				font-size: 0.7em;
+				font-weight: 700;
 
 				p {
 					text-align: right;
@@ -293,18 +293,6 @@ text-align: right;
 				vertical-align: middle;
 				margin: 0 !important;
 			}
-		}
-	}
-
-	.info-sentral {
-		h4 {
-			font-size: 4em;
-			padding-top: 0.5em;
-			margin: 0;
-		}
-		p {
-			font-size: 2em;
-			margin: 0;
 		}
 	}
 
@@ -388,16 +376,57 @@ text-align: right;
 
 	.info-graphic {
 		text-align: center;
-		font-size: 4em;
+
+		h4 {
+			font-size: 4em;
+			margin: 1px 0;
+		}
 
 		i {
+			font-size: 2em;
 			color: $green;
+		}
+
+		p {
+			font-size: 1.5em;
 		}
 	}
 
+	.nice-table {
+		width: 100%;
+		border-collapse: collapse;
+
+		tr {
+			&:nth-of-type(2n + 2) {
+				background: $grey-light;
+			}
+
+			&:hover {
+				background: #ddd;
+			}
+		}
+		th,
+		td {
+			padding: 0.5em 1em;
+			text-align: center;
+
+			&:first-child {
+				text-align: left;
+			}
+		}
+		th {
+			font-weight: 700;
+		}
+		.table-sum {
+			font-weight: 700;
+			border-top: 2px solid #000;
+			border-bottom: 2px solid #000;
+		}
+	}
 
 }
 #beachvid {
+	display: none;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -408,7 +437,6 @@ text-align: right;
 	height: auto;
 	min-height: 100%;
 	margin: auto;
-	opacity: 0;
 	z-index: -1;
 }
 
@@ -421,13 +449,12 @@ text-align: right;
 	font-weight: 300;
 	font-size: 1em;
 	color: #fff;
-	z-index: 9;
+	z-index: 999;
 
 	.nav-footer {
 		position: absolute;
 		left: 0;
 		bottom: 0;
-		// background: $green - 20;
 		@include vertical-gradient($green-rgb, rgb(0,102,102));
 		width: 100%;
 		height: 1px;
@@ -436,11 +463,11 @@ text-align: right;
 		-webkit-transition: all 0.5s ease-in-out;
 		transition: all 0.5s ease-in-out;
 
-
 		&.show-me {
 			height: auto;
-			padding-bottom: 100px;
+			padding-bottom: 120px;
 		}
+
 		nav {
 
 			ul {
@@ -451,6 +478,10 @@ text-align: right;
 					text-align: center;
 					margin:0.5em 0;
 
+					@media only screen and (max-width:768px) {
+						margin:47px 0;
+					}
+
 					&:last-of-type:after {
 						content: " ";
 						display: table;
@@ -460,6 +491,10 @@ text-align: right;
 						color: #fff;
 						text-decoration: none;
 						font-weight: 300;
+
+						&:hover {
+							font-weight: 700;
+						}
 					}
 				}
 			}
@@ -471,18 +506,19 @@ text-align: right;
 		left: 0;
 		bottom: 0;
 		background: url(img/jaggedline.png) repeat-x left top;
+		background-size: 100% 100%;
 		width: 100%;
-		height: 76px;
-		line-height: 60px;
-
-		@media only screen and (max-width:768px) {
-			height: auto;
-			text-align: center;
-			line-height: 1.3;
-		}
+		height: 88px;
+		line-height: 88px;
 
 		.main-item {
 
+			@media only screen and (max-width:768px) {
+				float: left;
+				width: 33.333%;
+				font-size: 0.75em;
+				margin: 0;
+			}
 			a {
 				color: #fff;
 				text-decoration: none;
@@ -494,6 +530,10 @@ text-align: right;
 				line-height: 1;
 				color: #fff;
 				border: none;
+
+				&:focus {
+					outline: 0;
+				}
 			}
 		}
 	}

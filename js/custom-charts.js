@@ -149,7 +149,7 @@ var husholdpieData = [
 	},
 	{
 		value: 486,
-		color: "rgb("+colors.blueLightRgb+")",
+		color: "rgb("+colors.bluelightRgb+")",
 		highlight: colors.greenLight,
 		label: "Glas"
 	},
