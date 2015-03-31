@@ -32,64 +32,10 @@
 	<h3>Deponi</h3>
 
 	<p>I 2014 vart det levert 8 075 tonn avfall til deponiet i Svartasmoget, ein reduksjon på 29,8 % frå året før. Årsaka til nedgongen er ein i 2013 tok i mot større mengder frå næringslivet. Den som leverer avfall til deponi skal kontrollera og gå god for at avfallet kan leverast til deponiet, SIM kontrollerer avfallet visuelt før og etter lossing, og sjekkar kvart 100. lass nøgnare. Ved behov vert det teke prøvar av avfallet.</p>
-</section>
 
-<section>
 	<h3>Trevirke</h3>
 
 	<p>SIM tok i mot totalt 6 924 tonn trevirke i 2014.</p>
-
-	<h3>Kompost</h3>
-
-	<p>Komposteringsanlegget tok imot 3 359 tonn våtorganisk avfall frå SIM-kommunane og 3 282 tonn frå næringskundar. Komposten som blir produsert i Svartasmoget kan kjøpast ved alle SIM sine miljøsentralar og er eit populært jordforbetringsprodukt. Prisen i 2014 var kr 300 per tonn og salet gav ei inntekt på kr. 787 000 eks. mva.</p>
-</section>
-
-<section>
-	<h3>Mengder til kompostering</h3>
-
-	<div class="chart">
-		<div class="clear">
-			<div class="grid70">
-				<div class="canvas-holder">
-					<canvas id="chart-kompost" width="600" height="400"></canvas>
-				</div>
-			</div>
-
-			<div class="grid30">
-				<?php
-					$legends = array(
-									array('title' => 'Kompost', 'color' => 'brown')
-					);
-					addlegends($legends);
-				?>
-			</div>
-		</div>
-		<p>6641 tonn i 2014</p>
-	</div>
-</section>
-
-<section>
-	<h3>Selde mengder kompost</h3>
-
-	<div class="chart">
-		<div class="clear">
-			<div class="grid70">
-				<div class="canvas-holder">
-					<canvas id="selt-kompost" width="600" height="400"></canvas>
-				</div>
-			</div>
-
-			<div class="grid30">
-				<?php
-					$legends = array(
-									array('title' => 'Kompost', 'color' => 'brown')
-					);
-					addlegends($legends);
-				?>
-			</div>
-		</div>
-		<p>2623 tonn i 2014</p>
-	</div>
 </section>
 
 <section>

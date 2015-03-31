@@ -134,6 +134,12 @@
 
 				<section>
 
+					<?php require_once('slides/kompost.php'); ?>
+
+				</section>
+
+				<section>
+
 					<?php require_once('slides/attvinning.php'); ?>
 
 				</section>
