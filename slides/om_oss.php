@@ -7,6 +7,7 @@
 		</div>
 
 		<div class="grid50 color-white">
+			<div class="info-graphic large-icon"><p><i class="fa fa-users"></i> <span class="omosskundar">44265</span> kundar</p></div>
 			<p><strong class="color-green">Eigarkommunar:</strong> Austevoll, Bømlo, Fitjar, Kvinnherad, Stord, Sveio og Tysnes.</p>
 			<p><strong class="color-green">Innbyggjarar:</strong> 60076</p>
 			<p><strong class="color-green">Abonnentar:</strong> Hus: 25254  / Hytter: 7572</p>

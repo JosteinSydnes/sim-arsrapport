@@ -122,22 +122,6 @@ var avfallData = [
 
 ];
 
-// var husholdData = {
-//     labels: ["Avfallsbrensel", "Våtorganisk", "Heimekompostering", "Papir", "Glas", "Stål", "EE-avfall", "Hageavfall", "Gips", "Trevirke", "Farleg avfall", "Plast"],
-//      datasets: [
-//         {
-//             label: "Husavfall",
-//             fillColor: colors.green,
-//             strokeColor: "#fff",
-//             pointColor: colors.grey,
-//             pointStrokeColor: "#fff",
-//             pointHighlightFill: "#fff",
-//             pointHighlightStroke: colors.grey,
-//             data: [11726, 3359, 775, 2662, 486, 1231, 675, 660, 158, 2367, 695, 97]
-//         }
-//     ]
-// };
-
 var husholdpieData = [
 	{
 		value: 11726,
@@ -275,13 +259,33 @@ var renovasjonFritidData = {
 	labels: ["Austevoll", "Bømlo", "Fitjar", "Kvinnherad", "Stord", "Sveio", "Tysnes"],
 	datasets: [
 		{
-			label: "Renovasjonsgebyr fritidsbustad",
+			label: "Gebyr til SIM fritid",
 			fillColor: "rgba("+ colors.greenRgb +",1)",
             strokeColor: "#fff",
             pointColor: "rgba("+ colors.greenRgb +",1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba("+ colors.greenRgb +",1)",
+			data: [1095, 1095, 1095, 1095, 1095, 1095, 1095]
+		},
+		{
+			label: "Kommnal eigenkost fritid",
+			fillColor: "rgba("+ colors.orangeRgb +",1)",
+            strokeColor: "#fff",
+            pointColor: "rgba("+ colors.orangeRgb +",1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba("+ colors.orangeRgb +",1)",
+			data: [194, 43, 93, 55, 0, 135, 358]
+		},
+		{
+			label: "Totalt fritid",
+			fillColor: "rgba("+ colors.blueRgb +",1)",
+            strokeColor: "#fff",
+            pointColor: "rgba("+ colors.blueRgb +",1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba("+ colors.blueRgb +",1)",
 			data: [1289, 1138, 1188, 1150, 1095, 1230, 1453]
 		}
 	]
@@ -291,13 +295,33 @@ var slamgebyrData = {
 	labels: ["Austevoll", "Bømlo", "Fitjar", "Kvinnherad", "Stord", "Sveio", "Tysnes"],
 	datasets: [
 		{
-			label: "Slamtømmegebyr",
-			fillColor: "rgba("+ colors.brownRgb +",1)",
+			label: "SIM Slamtømmegebyr",
+			fillColor: "rgba("+ colors.greenRgb +",1)",
             strokeColor: "#fff",
-            pointColor: "rgba("+ colors.brownRgb +",1)",
+            pointColor: "rgba("+ colors.greenRgb +",1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
-            pointHighlightStroke: "rgba("+ colors.brownRgb +",1)",
+            pointHighlightStroke: "rgba("+ colors.greenRgb +",1)",
+			data: [712, 712, 712, 712, 712, 712, 712]
+		},
+		{
+			label: "Kommune Slamtømmegebyr",
+			fillColor: "rgba("+ colors.orangeRgb +",1)",
+            strokeColor: "#fff",
+            pointColor: "rgba("+ colors.orangeRgb +",1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba("+ colors.orangeRgb +",1)",
+			data: [100, -86, -1, -86, 213, 261, 236]
+		},
+		{
+			label: "Totalt Slamtømmegebyr",
+			fillColor: "rgba("+ colors.blueRgb +",1)",
+            strokeColor: "#fff",
+            pointColor: "rgba("+ colors.blueRgb +",1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba("+ colors.blueRgb +",1)",
 			data: [813, 625, 713, 625, 925, 973, 948]
 		}
 	]
@@ -307,13 +331,33 @@ var feesubData = {
 	labels: ["Austevoll", "Bømlo", "Fitjar", "Kvinnherad", "Stord", "Sveio", "Tysnes"],
 	datasets: [
 		{
-			label: "Kommunalt abonnementsgebyr",
+			label: "SIM",
+			fillColor: "rgba("+ colors.greenRgb +",1)",
+            strokeColor: "#fff",
+            pointColor: "rgba("+ colors.greenRgb +",1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba("+ colors.greenRgb +",1)",
+			data: [714, 714, 714, 714, 714, 714, 714]
+		},
+		{
+			label: "Kommunalt",
 			fillColor: "rgba("+ colors.orangeRgb +",1)",
             strokeColor: "#fff",
             pointColor: "rgba("+ colors.orangeRgb +",1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba("+ colors.orangeRgb +",1)",
+			data: [61, -14, 74, 11, 89, 226, 466]
+		},
+		{
+			label: "Totalt",
+			fillColor: "rgba("+ colors.blueRgb +",1)",
+            strokeColor: "#fff",
+            pointColor: "rgba("+ colors.blueRgb +",1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba("+ colors.blueRgb +",1)",
 			data: [775, 700, 788, 725, 803, 940, 1180]
 		}
 	]

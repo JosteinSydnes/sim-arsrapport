@@ -123,25 +123,25 @@
 
 		<div class="grid33">
 			<div class="tilsett">
-				<img src="img/tilsette/employee.jpg" alt="Trine Tverborgvik - Kundehandsamarar">
-				<div class="stilling"><p>Trine Tverborgvik</p><p>Kundehandsamarar</p></div>
+				<img src="img/tilsette/kjell-bolme-sm.jpg" alt="Kjell Bolme - Kundehandsamar miljøsentral">
+				<div class="stilling"><p>Kjell Bolme</p><p>Kundehandsamar miljøsentral</p></div>
 			</div>
 
 			<div class="tilsett">
-				<img src="img/tilsette/employee.jpg" alt="Kristoffer Vik - Operatør deponi">
-				<div class="stilling"><p>Kristoffer Vik</p><p>Operatør deponi</p></div>
+				<img src="img/tilsette/employee.jpg" alt="Trine Tverborgvik - Kundehandsamarar">
+				<div class="stilling"><p>Trine Tverborgvik</p><p>Kundehandsamarar</p></div>
 			</div>
 		</div>
 
 		<div class="grid33">
 			<div class="tilsett">
-				<img src="img/tilsette/employee.jpg" alt="Helge Sæterbø - Kundehandsamar miljøsentral">
-				<div class="stilling"><p>Helge Sæterbø</p><p>Kundehandsamar miljøsentral</p></div>
+				<img src="img/tilsette/employee.jpg" alt="Kristoffer Vik - Operatør deponi">
+				<div class="stilling"><p>Kristoffer Vik</p><p>Operatør deponi</p></div>
 			</div>
 
 			<div class="tilsett">
-				<img src="img/tilsette/employee.jpg" alt="Gro Andersen - Kundehandsamar miljøsentral">
-				<div class="stilling"><p>Gro Andersen</p><p>Kundehandsamar miljøsentral</p></div>
+				<img src="img/tilsette/employee.jpg" alt="Helge Sæterbø - Kundehandsamar miljøsentral">
+				<div class="stilling"><p>Helge Sæterbø</p><p>Kundehandsamar miljøsentral</p><p>Gro Andersen</p><p>Kundehandsamar miljøsentral</p></div>
 			</div>
 		</div>
 	</div>

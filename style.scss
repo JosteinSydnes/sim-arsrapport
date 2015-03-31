@@ -567,8 +567,13 @@ text-align: right;
 		nav {
 
 			ul {
-				width:100%;
 				list-style: none;
+
+				@media only screen and (max-width:768px) {
+					float: none;
+					width: 100%;
+					margin: 0;
+				}
 
 				li {
 					text-align: center;
@@ -578,10 +583,10 @@ text-align: right;
 						margin:47px 0;
 					}
 
-					&:last-of-type:after {
-						content: " ";
-						display: table;
-					}
+					// &:last-of-type:after {
+					// 	content: " ";
+					// 	display: table;
+					// }
 
 					a {
 						color: #fff;

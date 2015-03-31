@@ -44,7 +44,9 @@
 			<div class="grid30">
 				<?php
 					$legends = array(
-									array('title' => 'Renovasjonsgebyr fritidsbustad', 'color' => 'green')
+									array('title' => 'Gebyr til SIM', 'color' => 'green'),
+									array('title' => 'Kommunal eigenkostnad', 'color' => 'orange'),
+									array('title' => 'Totalt renovasjonsgebyr', 'color' => 'blue')
 					);
 
 					addlegends($legends);
@@ -70,7 +72,9 @@
 			<div class="grid30">
 				<?php
 					$legends = array(
-									array('title' => 'Slamtømmegebyr', 'color' => 'brown')
+									array('title' => 'Gebyr til SIM', 'color' => 'green'),
+									array('title' => 'Kommunal eigenkostnad', 'color' => 'orange'),
+									array('title' => 'Totalt renovasjonsgebyr', 'color' => 'blue')
 					);
 
 					addlegends($legends);
@@ -96,7 +100,9 @@
 			<div class="grid30">
 				<?php
 					$legends = array(
-									array('title' => 'Kommunalt abonnementsgebyr', 'color' => 'orange')
+									array('title' => 'Gebyr til SIM', 'color' => 'green'),
+									array('title' => 'Kommunal eigenkostnad', 'color' => 'orange'),
+									array('title' => 'Totalt abonnementsgebyr', 'color' => 'blue')
 					);
 
 					addlegends($legends);

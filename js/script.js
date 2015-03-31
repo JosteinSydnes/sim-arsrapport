@@ -45,12 +45,17 @@
 
 
 		Reveal.addEventListener( 'slidechanged', function( event ) {
-
+			// Vis bakgrunnsvideo
 			if(event.indexh == 6 && event.indexv == 0) {
 				$('#beachvid').fadeIn(400);
 			}
 			else {
 				$('#beachvid').fadeOut(400);
+			}
+
+			// Teljing på om oss kundar
+			if(event.indexh == 1 && event.indexv == 0) {
+				setCounter("omosskundar", 0, 44265, 111, 1);
 			}
 
 			if(event.indexh == 5 && event.indexv == 1) {
@@ -132,15 +137,19 @@
 			}
 			if(event.indexh == 11 && event.indexv == 3) {
 				var ctslam = $("#slam-gebyr").get(0).getContext("2d");
-				var slamgebyr = new Chart(ctslam).Bar(slamgebyrData);
+				var slamgebyr = new Chart(ctslam).Bar(slamgebyrData, {
+					scaleBeginAtZero : false
+				});
 			}
 			if(event.indexh == 11 && event.indexv == 4) {
 				var ctfeesub = $("#fee-subscription").get(0).getContext("2d");
-				var myBarFeeSub = new Chart(ctfeesub).Bar(feesubData);
+				var myBarFeeSub = new Chart(ctfeesub).Bar(feesubData, {
+					scaleBeginAtZero : false
+				});
 			}
 			if(event.indexh == 11 && event.indexv == 5) {
 				var ctfeeused = $("#fee-used").get(0).getContext("2d");
-				var myBarFeeSub = new Chart(ctfeeused).Pie(feeusedData, {
+				var myBarUsedFeeSub = new Chart(ctfeeused).Pie(feeusedData, {
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> kr"
 				});
 			}

@@ -165,22 +165,28 @@
 		<footer class="footer">
 
 			<div class="nav-footer">
-				<nav class="grid50 grid-center">
-					<ul>
-						<li class="grid50"><a href="#">Start</a></li>
-						<li class="grid50"><a href="#/9">Attvinning</a></li>
-						<li class="grid50"><a href="#/1">Om oss</a></li>
-						<li class="grid50"><a href="#/7">Avfallsmengder</a></li>
-						<li class="grid50"><a href="#/3">Tilsette</a></li>
-						<li class="grid50"><a href="#/8">Miljøsentralen</a></li>
-						<li class="grid50"><a href="#/2">Dagleg leiar</a></li>
-						<li class="grid50"><a href="#/5">Ditt avfall</a></li>
-						<li class="grid50"><a href="#/4">Styret si årsmelding</a></li>
-						<li class="grid50"><a href="#/10">Gebyr</a></li>
-						<li class="grid50"><a href="#/6">Vårt samfunn</a></li>
-						<li class="grid50"><a href="#/11">Etterkalkulasjon</a></li>
-					</ul>
-				</nav>
+				<div class="clear">
+					<nav class="grid50 grid-center">
+						<ul class="grid50">
+							<li><a href="#">Start</a></li>
+							<li><a href="#/1">Om oss</a></li>
+							<li><a href="#/2">Dagleg leiar</a></li>
+							<li><a href="#/3">Tilsette</a></li>
+							<li><a href="#/4">Styret si årsmelding</a></li>
+							<li><a href="#/5">Ditt avfall</a></li>
+							<li><a href="#/6">Vårt samfunn</a></li>
+						</ul>
+
+						<ul class="grid50">
+							<li><a href="#/7">Avfallsmengder</a></li>
+							<li><a href="#/8">Miljøsentralen</a></li>
+							<li><a href="#/9">Kompost</a></li>
+							<li><a href="#/10">Attvinning</a></li>
+							<li><a href="#/11">Gebyr</a></li>
+							<li><a href="#/12">Etterkalkulasjon</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
 
 			<div class="main-footer">
