@@ -1,10 +1,5 @@
-<section>
+<section data-background="img/backgrounds/styret_melding.jpg">
 	<h2 class="aligncenter">Styret si årsmelding</h2>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
 </section>
 
 <section>
@@ -58,32 +53,35 @@
 	<p>SIM vil leggja til rette for auke sortering også i framtida. Ein er budd på auke i besøkstalet på miljøsentralane og er godt i gong med bygging av ny miljøsentral på Bømlo. Selskapet skal byggja reinseanlegg i Svartasmoget og ein skal starte planlegging av garderobar og mogeleg administrasjonsbygg på Heiane.</p>
 
 	<p>Styret kjenner seg trygg på at SIM også i framtida kan gje kundane ei god og kostnadseffektiv renovasjonsordning.</p>
+</section>
 
+<section>
 	<h3 class="aligncenter">Fitjar, 17. mars 2015.</h3>
 
 	<div class="styre-signatur">
 		<?php
 			$signatures = array(
-					array("name" => "Elisabeth Sandven", "position" => "Styremedlem", "img" => "elisabeth_sandven.png"),
-					array("name" => "Jorun Skåden", "position" => "Styremedlem", "img" => "jorun_skaden.png"),
-					array("name" => "Jostein Grov", "position" => "Styremedlem", "img" => "jostein_grov.png"),
-					array("name" => "Rune Sandvik", "position" => "Nestleiar", "img" => "rune_sandvik.png"),
-					array("name" => "Reidun Åsheim", "position" => "Leiar", "img" => "reidun_asheim.png"),
-					array("name" => "Hein Schaug", "position" => "Styremedlem", "img" => "hein_schaug.png"),
-					array("name" => "Edvard Stangeland", "position" => "Styremedlem", "img" => "edvard_stangeland.png"),
-					array("name" => "Terje Gilje", "position" => "Dagleg leiar", "img" => "terje_gilje.png")
+					array("name" => "Elisabeth Sandven", "position" => "Styremedlem", 'img' => 'img/tilsette/styret/elisabeth-sandven.jpg', "sign" => "elisabeth_sandven.png"),
+					array("name" => "Jorun Skåden", "position" => "Styremedlem", 'img' => 'img/tilsette/styret/jorunn-skaden.jpg', "sign" => "jorun_skaden.png"),
+					array("name" => "Jostein Grov", "position" => "Styremedlem", 'img' => 'img/tilsette/styret/jostein-grov.jpg', "sign" => "jostein_grov.png"),
+					array("name" => "Rune Sandvik", "position" => "Nestleiar", 'img' => 'img/tilsette/styret/rune-sandvik.jpg', "sign" => "rune_sandvik.png"),
+					array("name" => "Reidun Åsheim", "position" => "Leiar", 'img' => 'img/tilsette/styret/reidunn-aasheim.jpg', "sign" => "reidun_asheim.png"),
+					array("name" => "Hein Schaug", "position" => "Styremedlem", 'img' => 'img/tilsette/styret/hein-schaug.jpg', "sign" => "hein_schaug.png"),
+					array("name" => "Edvard Stangeland", "position" => "Styremedlem", 'img' => 'img/tilsette/styret/edvard-stangeland.jpg', "sign" => "edvard_stangeland.png"),
+					array("name" => "Terje Gilje", "position" => "Dagleg leiar", 'img' => 'img/tilsette/styret/terje-gilje.jpg', "sign" => "terje_gilje.png")
 				);
 
 			foreach ($signatures as $sign) : ?>
 
 				<div class="grid25 signatur">
-					<img src="img/tilsette/signatur-styret/<?php echo $sign['img']; ?>" alt="<?php echo $sign['position']; ?> <?php echo $sign['name']; ?>">
+					<div class="styremedlem-foto" style="background-image: url(<?php echo $sign['img'] ?>)"><!-- <img src="<?php echo $sign['img'] ?>" alt="<?php echo $sign['name']; ?>"> -->
+					</div>
+					<img src="img/tilsette/styret/signatur-styret/<?php echo $sign['sign']; ?>" alt="<?php echo $sign['position']; ?> <?php echo $sign['name']; ?>">
 					<p><?php echo $sign['name']; ?></p>
 					<p><?php echo $sign['position']; ?></p>
 				</div>
 
 		<?php endforeach; ?>
-
 	</div>
 
 </section>

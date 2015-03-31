@@ -18,7 +18,7 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-		<link href="img/favicon.ico" rel="shortcut icon">
+		<link href="img/favicon.ico" rel="icon">
 		<link href="img/touch.png" rel="apple-touch-icon-precomposed">
 
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700">
@@ -108,13 +108,13 @@
 
 				</section>
 
-				<section class="color-white text-shadow" data-background="img/backgrounds/sortering.jpg">
+				<section>
 
 					<?php require_once('slides/ditt_avfall.php'); ?>
 
 				</section>
 
-				<section class="color-white text-shadow" data-background="img/backgrounds/glas.jpg">
+				<section>
 
 					<?php require_once('slides/vart_samfunn.php'); ?>
 
@@ -140,6 +140,12 @@
 
 				<section>
 
+					<?php require_once('slides/gebyr.php'); ?>
+
+				</section>
+
+				<section>
+
 					<?php require_once('slides/etterkalkulasjon.php'); ?>
 
 				</section>
@@ -156,15 +162,17 @@
 				<nav class="grid50 grid-center">
 					<ul>
 						<li class="grid50"><a href="#">Start</a></li>
-						<li class="grid50"><a href="#/1">Om oss</a></li>
-						<li class="grid50"><a href="#/3">Tilsette</a></li>
-						<li class="grid50"><a href="#/2">Dagleg leiar</a></li>
-						<li class="grid50"><a href="#/4">Styret si årsmelding</a></li>
-						<li class="grid50"><a href="#/5">Ditt avfall</a></li>
-						<li class="grid50"><a href="#/6">Vårt samfunn</a></li>
-						<li class="grid50"><a href="#/7">Avfallsmengder</a></li>
-						<li class="grid50"><a href="#/8">Miljøsentralen</a></li>
 						<li class="grid50"><a href="#/9">Attvinning</a></li>
+						<li class="grid50"><a href="#/1">Om oss</a></li>
+						<li class="grid50"><a href="#/7">Avfallsmengder</a></li>
+						<li class="grid50"><a href="#/3">Tilsette</a></li>
+						<li class="grid50"><a href="#/8">Miljøsentralen</a></li>
+						<li class="grid50"><a href="#/2">Dagleg leiar</a></li>
+						<li class="grid50"><a href="#/5">Ditt avfall</a></li>
+						<li class="grid50"><a href="#/4">Styret si årsmelding</a></li>
+						<li class="grid50"><a href="#/10">Gebyr</a></li>
+						<li class="grid50"><a href="#/6">Vårt samfunn</a></li>
+						<li class="grid50"><a href="#/11">Etterkalkulasjon</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -179,7 +187,7 @@
 				</div>
 
 				<div class="grid33 alignright main-item">
-					<p><a href="#">VIS REKNESKAP <i class="fa fa-caret-right"></i></a></p>
+					<p><a href="accounts.html" id="showaccounts">VIS REKNESKAP <i class="fa fa-caret-right"></i></a></p>
 				</div>
 			</div>
 		</footer>
@@ -203,5 +211,6 @@
 		</script>
 		<script src="js/script.js"></script>
 		<script src="js/custom-charts.js"></script>
+		<script src="js/accounts.js"></script>
 	</body>
 </html>

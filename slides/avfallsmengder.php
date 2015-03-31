@@ -67,6 +67,30 @@
 </section>
 
 <section>
+	<h3>Mengder hushaldsavfall</h3>
+
+	<div class="chart">
+		<div class="clear">
+			<div class="grid70">
+				<div class="canvas-holder">
+					<canvas id="chart-hushaldsamla" width="600" height="400"></canvas>
+				</div>
+			</div>
+
+			<div class="grid30">
+				<?php
+					$legends = array(
+							array('title' => 'Mengder i tonn', 'color' => 'green')
+					);
+					addlegends($legends);
+				?>
+			</div>
+		</div>
+		<p>Samla mengde hushaldsavfall i tonn</p>
+	</div>
+</section>
+
+<section>
 	<h3>Samla avfallsmengder som SIM tek hand om</h3>
 
 	<div class="chart">

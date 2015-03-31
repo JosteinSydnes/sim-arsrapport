@@ -23,13 +23,13 @@
 			});
 		});
 
-		var counterId;
+		var cid;
 		var start;
 		function countNum(selector, to, incr) {
 			var el = $("." + selector);
 			start = start + incr;
 			if(start >= to) {
-				clearInterval(counterId);
+				clearInterval(cid);
 				start = to;
 			}
 			el.html(start);
@@ -38,7 +38,7 @@
 			// console.log("yep, the function fired.");
 			start = from;
 			$("."+classname).html(start);
-			counterId = setInterval(function(){
+			cid = setInterval(function(){
 				countNum(classname, to, incr);
 			}, speed);
 		}
@@ -46,7 +46,7 @@
 
 		Reveal.addEventListener( 'slidechanged', function( event ) {
 
-			if(event.indexh == 4 && event.indexv == 0) {
+			if(event.indexh == 6 && event.indexv == 0) {
 				$('#beachvid').fadeIn(400);
 			}
 			else {
@@ -65,6 +65,18 @@
 				setCounter("miljocount", 0, 59030, 101, 1);
 			}
 
+			if(event.indexh == 5 && event.indexv == 5) {
+				var ctkompost = $("#chart-kompost").get(0).getContext("2d");
+				var myBarkompost = new Chart(ctkompost).Bar(kompostData, {
+					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn"
+				});
+			}
+			if(event.indexh == 5 && event.indexv == 6) {
+				var ctkompostselt = $("#selt-kompost").get(0).getContext("2d");
+				var myBarkompostselt = new Chart(ctkompostselt).Bar(kompostseltData, {
+					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn"
+				});
+			}
 			if(event.indexh == 7 && event.indexv == 1) {
 				var cthenta = $("#chart-area").get(0).getContext("2d");
 				var myPie = new Chart(cthenta).Doughnut(pieData, {
@@ -79,12 +91,18 @@
 				});
 			}
 			if(event.indexh == 7 && event.indexv == 3) {
+				var cthushaldsamla = $("#chart-hushaldsamla").get(0).getContext("2d");
+				var myBarhushaldsamla = new Chart(cthushaldsamla).Bar(hushaldsamlabardata, {
+					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn"
+				});
+			}
+			if(event.indexh == 7 && event.indexv == 4) {
 				var ctavfall = $("#pie-avfallsmengder").get(0).getContext("2d");
 				var myPieavfall = new Chart(ctavfall).Pie(avfallData, {
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%><%= value %>%"
 				});
 			}
-			if(event.indexh == 7 && event.indexv == 4) {
+			if(event.indexh == 7 && event.indexv == 5) {
 				var cthushold = $("#hushold-bar").get(0).getContext("2d");
 				var myBarHushold = new Chart(cthushold).Doughnut(husholdpieData, {
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn"
@@ -104,11 +122,23 @@
 					datasetStrokeWidth : 4
 				});
 			}
-			if(event.indexh == 9 && event.indexv == 4) {
+			if(event.indexh == 10 && event.indexv == 1) {
+				var ctgjennomsnitt = $("#gjennomsnitt-renovasjon").get(0).getContext("2d");
+				var gjennomsnittren = new Chart(ctgjennomsnitt).Bar(gjennomsnittRenovasjonData);
+			}
+			if(event.indexh == 10 && event.indexv == 2) {
+				var ctrenfritid = $("#renovasjon-fritid").get(0).getContext("2d");
+				var renfritid = new Chart(ctrenfritid).Bar(renovasjonFritidData);
+			}
+			if(event.indexh == 10 && event.indexv == 3) {
+				var ctslam = $("#slam-gebyr").get(0).getContext("2d");
+				var slamgebyr = new Chart(ctslam).Bar(slamgebyrData);
+			}
+			if(event.indexh == 10 && event.indexv == 4) {
 				var ctfeesub = $("#fee-subscription").get(0).getContext("2d");
 				var myBarFeeSub = new Chart(ctfeesub).Bar(feesubData);
 			}
-			if(event.indexh == 9 && event.indexv == 5) {
+			if(event.indexh == 10 && event.indexv == 5) {
 				var ctfeeused = $("#fee-used").get(0).getContext("2d");
 				var myBarFeeSub = new Chart(ctfeeused).Pie(feeusedData, {
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> kr"

@@ -1,6 +1,7 @@
-<section>
+<section data-background="img/backgrounds/attvinning.jpg">
 	<h2>Attvinning</h2>
 	<p>Avfall vert attvunne på tre måtar: Ombruk, materialattvinning og energiutnytting. Avfallshierarkiet viser kva som gjev best effekt med tanke på miljøet.</p>
+	<p class="avfallspyramide"><img src="img/avfallspyramiden.png" alt="Afallspyramiden"></p>
 </section>
 
 <section>
@@ -23,65 +24,3 @@
 	<p>12 prosent av abonnentane komposterer bioavfallet sitt heime, om lag som i 2014. Totalt er det 2 987 registrerte bingar. I tillegg kjem 457 kundar som deler binge med andre. Abonnentar som komposterer heime, slepp å betala for biodunk og bioposar, dei produserer sitt eige jordforbetringsmiddel, og dei treng ikkje reingjera og setja ut biodunken. Om kvar innbyggjar produserer 90 kilo bioavfall i året, vart det i 2014 heimekompostert 775 tonn avfall.</p>
 </section>
 
-<section>
-	<h3>Renovasjonsgebyr</h3>
-
-	<p>Renovasjonsgebyret som kundane betalar er ein kombinasjon av dunkgebyr (ca. 70 %) og abonnementsgebyr (ca. 30 %). Abonnementsgebyret ut frå SIM er likt. Likevel betalar kundane ulikt for renovasjonstenestene. Årsaka til dette er at kommunane legg på gebyret for å dekka sine utgifter med renovasjonsordninga. Påslaget varierer frå kommune til kommune. Også for hyttekundar er renovasjonsgebyret i utgangspunktet likt. Årsaka til at betalingssatsane likevel varierer, er den same som over. Alt i alt er det SIM, og ikkje kommunane, som tek den økonomiske risikoen med endringar i avfallsmengda.</p>
-</section>
-
-<section>
-	<h3>Renovasjonsabonnement og kommunaltgebyr i 2014</h3>
-
-	<div class="chart">
-		<div class="clear">
-			<div class="grid70">
-				<div class="canvas-holder">
-					<canvas id="fee-subscription" width="650" height="400"></canvas>
-				</div>
-			</div>
-
-			<div class="grid30">
-				<?php
-					$legends = array(
-									array('title' => 'Renovasjonsabonnement', 'color' => 'green'),
-									array('title' => 'Abonnementsgebyr Kommune', 'color' => 'orange')
-					);
-
-					addlegends($legends);
-				?>
-			</div>
-		</div>
-
-		<p>Snittgebyr på 2049 kroner i 2014</p>
-	</div>
-</section>
-
-<section>
-	<h3>Dette går gebyret til</h3>
-
-	<div class="chart">
-		<div class="clear">
-			<div class="grid70">
-				<div class="canvas-holder">
-					<canvas id="fee-used" width="400" height="400"></canvas>
-				</div>
-			</div>
-
-			<div class="grid30">
-				<?php
-					$legends = array(
-									array('title' => 'Innsamling', 'color' => 'green'),
-									array('title' => 'Eigenkostnad', 'color' => 'orange'),
-									array('title' => 'Miljøsentralar', 'color' => 'green-light'),
-									array('title' => 'Sluttbehandling brensel', 'color' => 'blue'),
-									array('title' => 'Eigenkostnad kommunar', 'color' => 'brown-light'),
-									array('title' => 'Meirverdiavgift', 'color' => 'brown')
-					);
-
-					addlegends($legends);
-				?>
-			</div>
-		</div>
-		<p>Rekna ut frå eit snittgebyr på 2049 kroner i 2014</p>
-	</div>
-</section>

@@ -1,11 +1,125 @@
 <section>
-	<h2>Om oss</h2>
+	<div class="clear">
+		<div class="grid50">
+			<h2>Om oss</h2>
 
-	<p>Sunnhordland Interkommunale Miljøverk IKS (SIM) er ei moderne avfalls- og attvinningsverksemd. Selskapet vart stifta i mai 1990 og er eigd av kommunane Austevoll, Bømlo, Fitjar, Kvinnherad, Stord, Sveio og Tysnes. Administrasjonen ligg i Svartasmoget i Fitjar kommune.</p>
+			<p>Sunnhordland Interkommunale Miljøverk IKS (SIM) er ei moderne avfalls- og attvinningsverksemd. Selskapet vart stifta i mai 1990 og er eigd av kommunane Austevoll, Bømlo, Fitjar, Kvinnherad, Stord, Sveio og Tysnes. Administrasjonen ligg i Svartasmoget i Fitjar kommune.</p>
+		</div>
 
+		<div class="grid50 color-white">
+			<p><strong class="color-green">Eigarkommunar:</strong> Austevoll, Bømlo, Fitjar, Kvinnherad, Stord, Sveio og Tysnes.</p>
+			<p><strong class="color-green">Innbyggjarar:</strong> 60076</p>
+			<p><strong class="color-green">Abonnentar:</strong> Hus: 25254  / Hytter: 7572</p>
+			<p><strong class="color-green">Abonnentar som heimekomposterer:</strong> 3444</p>
+			<p><strong class="color-green">Kilo avfall per innbyggjar 2014:</strong> 415 kg</p>
+			<p><strong class="color-green">Kundar med slamavskiljar:</strong> 11439</p>
+		</div>
+	</div>
+</section>
+
+<section>
 	<p>SIM har ansvar for innsamling av alt hushaldsavfall og slam frå dei 60 076 innbyggjarane og 7 572 hyttekundane i medlemskommunane. I alle kommunane er det kjeldesortering med dunkar for høvesvis bio-, papir- og restavfall og betjente miljøsentralar.</p>
 
 	<p>I Svartasmoget er det administrasjonsbygg, deponi, miljøsentral, hall og utstyr for kompostering av våtorganisk avfall, i tillegg til anlegg for mottak og handsaming av avløpsslam. På Heiane, i Stord kommune, har selskapet omlastehall. Det er i tillegg miljøsentralar i alle eigarkommunane. SIM legg vekt på førebyggjande tiltak for å redusera miljøforureining av luft, vatn og nærområde. Selskapet arbeider for å oppfylla miljøkrav og å utnytta ressursane i avfallet.</p>
+</section>
+
+<section>
+	<h3>Organisasjonskart</h3>
+	<div class="org-kart clear">
+		<div class="grid30 org-logo">
+			<img src="img/logo-orgkart/sim-ikt-neg.png" alt="SIM IKT">
+		</div>
+
+		<div class="grid70">
+			<div class="org-info">
+				<p><strong>SIM</strong></p>
+				<p>19,3 årsverk</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="org-kart clear">
+		<div class="grid30 org-logo">
+			<img src="img/logo-orgkart/sim-naering-neg.png" alt="SIM Næring">
+		</div>
+
+		<div class="grid70">
+			<div class="org-info">
+				<p><strong>SIM Næring AS</strong></p>
+				<p>Solgt i 2014</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="org-kart clear">
+		<div class="grid30 org-logo">
+			<img src="img/logo-orgkart/sim-tank-neg.png" alt="SIM Tankrenovasjon">
+		</div>
+
+		<div class="grid70">
+			<div class="org-info">
+				<p><strong>SIM Tankrenovasjon AS</strong></p>
+				<p>Solgt i 2014</p>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<section>
+	<h3>Representantskap, styre og administrasjon</h3>
+	<div class="clear">
+		<div class="grid25 repr-kommunar">
+			<div>
+				<p>Medlemskommunar</p>
+				<ul>
+					<li>Austevoll</li>
+					<li>Bømlo</li>
+					<li>Fitjar</li>
+					<li>Kvinnherad</li>
+					<li>Stord</li>
+					<li>Sveio</li>
+					<li>Tysnes</li>
+				</ul>
+			</div>
+
+			<div>
+				<p>Miljøsentralar</p>
+				<ul>
+					<li>Austevoll</li>
+					<li>Bømlo</li>
+					<li>Fitjar</li>
+					<li>Kvinnherad</li>
+					<li>Stord</li>
+					<li>Sveio</li>
+					<li>Tysnes</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="grid50 repr-dep">
+			<div>
+				<p><strong>Representantskap</strong></p>
+				<p>24 medlemmar</p>
+				<p><strong>Leiar:</strong></p>
+				<p>Kjetil Hestad, Tysnes</p>
+			</div>
+
+			<div>
+				<p><strong>Styret</strong></p>
+				<p>7+1 medlemer.</p>
+				<p><strong>Leiar:</strong></p>
+				<p>Reidunn Aasheim, Stord</p>
+			</div>
+
+			<div>
+				<p><strong>Administrasjon og hovudanlegg</strong></p>
+				<p>Svartasmoget, Fitjar.</p>
+				<p><strong>Dagleg Leiar:</strong></p>
+				<p>Terje Gilje</p>
+			</div>
+		</div>
+	</div>
 </section>
 
 <section>

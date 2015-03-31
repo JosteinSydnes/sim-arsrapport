@@ -1,4 +1,4 @@
-<section data-background="img/backgrounds/terje_gilje.jpg">
+<section data-background="img/backgrounds/terje_gilje_oversikt.jpg">
 	<div class="grid50 color-white text-shadow">
 		<div>
 			<h2>Miljørett framtid</h2>
@@ -33,7 +33,7 @@ Takk til alle medlemskommunar, kundar, samarbeidspartnarar og tilsette for godt 
 
 	<div class="leader-signature">
 		<div class="grid50 grid-right aligncenter">
-			<img src="img/tilsette/signatur-styret/terje_gilje.png" alt="Signatur Terje Gilje">
+			<img src="img/tilsette/styret/signatur-styret/terje_gilje.png" alt="Signatur Terje Gilje">
 			<p>Terje Gilje</p>
 			<p>Dagleg leiar</p>
 		</div>

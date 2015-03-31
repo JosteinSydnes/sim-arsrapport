@@ -1,5 +1,10 @@
 <section>
 	<h2>Vårt samfunn</h2>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
 </section>
 
 <section>

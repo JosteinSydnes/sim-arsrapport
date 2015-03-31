@@ -72,6 +72,22 @@ var deponidata = {
     ]
 };
 
+var hushaldsamlabardata = {
+    labels: ["2009", "2010", "2011", "2012", "2013", "2014"],
+     datasets: [
+        {
+            label: "Samla husholdsavfall",
+            fillColor: colors.green,
+            strokeColor: "rgba("+colors.greyRgb+",0)",
+            pointColor: colors.grey,
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: colors.grey,
+            data: [23428, 24615, 25754, 23896, 25057, 24892]
+        }
+    ]
+};
+
 var avfallData = [
 	{
 		value: 1.7,
@@ -239,11 +255,11 @@ var ammountData = {
 	]
 };
 
-var feesubData = {
+var gjennomsnittRenovasjonData = {
 	labels: ["Austevoll", "Bømlo", "Fitjar", "Kvinnherad", "Stord", "Sveio", "Tysnes"],
 	datasets: [
 		{
-			label: "renovasjonsabonnement",
+			label: "Gjennomsnitt renovasjonsabonnement",
 			fillColor: "rgba("+ colors.greenRgb +",1)",
             strokeColor: "#fff",
             pointColor: "rgba("+ colors.greenRgb +",1)",
@@ -251,7 +267,45 @@ var feesubData = {
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba("+ colors.greenRgb +",1)",
 			data: [2251, 2163, 2030, 2140, 2337, 2327, 2406]
-		},
+		}
+	]
+};
+
+var renovasjonFritidData = {
+	labels: ["Austevoll", "Bømlo", "Fitjar", "Kvinnherad", "Stord", "Sveio", "Tysnes"],
+	datasets: [
+		{
+			label: "Renovasjonsgebyr fritidsbustad",
+			fillColor: "rgba("+ colors.greenRgb +",1)",
+            strokeColor: "#fff",
+            pointColor: "rgba("+ colors.greenRgb +",1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba("+ colors.greenRgb +",1)",
+			data: [1289, 1138, 1188, 1150, 1095, 1230, 1453]
+		}
+	]
+};
+
+var slamgebyrData = {
+	labels: ["Austevoll", "Bømlo", "Fitjar", "Kvinnherad", "Stord", "Sveio", "Tysnes"],
+	datasets: [
+		{
+			label: "Slamtømmegebyr",
+			fillColor: "rgba("+ colors.brownRgb +",1)",
+            strokeColor: "#fff",
+            pointColor: "rgba("+ colors.brownRgb +",1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba("+ colors.brownRgb +",1)",
+			data: [813, 625, 713, 625, 925, 973, 948]
+		}
+	]
+};
+
+var feesubData = {
+	labels: ["Austevoll", "Bømlo", "Fitjar", "Kvinnherad", "Stord", "Sveio", "Tysnes"],
+	datasets: [
 		{
 			label: "Kommunalt abonnementsgebyr",
 			fillColor: "rgba("+ colors.orangeRgb +",1)",
@@ -305,6 +359,38 @@ var feeusedData = [
 	}
 
 ];
+
+var kompostData = {
+	labels: ["2009", "2010", "2011", "2012", "2013", "2014"],
+	datasets: [
+		{
+			label: "Mengder til kompostering",
+			fillColor: "rgba("+ colors.brownRgb +",1)",
+            strokeColor: "#fff",
+            pointColor: "rgba("+ colors.brownRgb +",1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba("+ colors.brownRgb +",1)",
+			data: [10244, 8782, 8810, 8952, 9953, 6641]
+		}
+	]
+};
+
+var kompostseltData = {
+	labels: ["2009", "2010", "2011", "2012", "2013", "2014"],
+	datasets: [
+		{
+			label: "Mengder til kompostering",
+			fillColor: "rgba("+ colors.brownRgb +",1)",
+            strokeColor: "#fff",
+            pointColor: "rgba("+ colors.brownRgb +",1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba("+ colors.brownRgb +",1)",
+			data: [3389, 3673, 2323, 3291, 2789, 2623]
+		}
+	]
+};
 
 Chart.defaults.global.responsive = false;
 Chart.defaults.global.scaleFontFamily = "'Source Sans Pro', 'Helvetica', 'Arial', sans-serif";

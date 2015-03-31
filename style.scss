@@ -8,6 +8,7 @@
 @import 'css/eiksminigrid';
 @import 'css/font-awesome/scss/font-awesome';
 @import 'css/theme/template/mixins';
+@import 'css/table-styles';
 
 // Sass colors
 $green: #007C66;
@@ -28,6 +29,7 @@ $magenta-rgb: rgb(228,74,138);
 $yellow-rgb: rgb(241,167,26);
 $yellow-light-rgb: rgb(216,187,25);
 $red-rgb: rgb(205,26,29);
+
 
 *,
 *:after,
@@ -54,6 +56,16 @@ body {
 			& > section {
 			}
 		}
+	}
+	.stack .present:after {
+		content: "\f078";
+		position: absolute;
+		left: 0;
+		bottom: -50px;
+		font: normal normal normal 14px/1 FontAwesome;
+		font-size: 2em;
+		color: #000;
+		opacity: 0.5;
 	}
 
 	*[class*=grid] {
@@ -99,7 +111,7 @@ body {
 .reveal {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		margin: 0.5em 0;
+		margin: 0 0 0.5em 0;
 		line-height: 1.2;
 	}
 	h1 {
@@ -288,9 +300,21 @@ text-align: right;
 		text-align: center;
 
 		.signatur {
-			margin: 2em 0;
+			margin: 1em 0;
+
+			.styremedlem-foto {
+				background-size: cover;
+				$elsize: 60%;
+				width: $elsize;
+				padding-top: $elsize;
+				margin: 0 auto;
+				border-radius: 50%;
+				overflow: hidden;
+			}
+
 			img {
-				width: 50%;
+				width: auto;
+				height: 50px;
 				vertical-align: middle;
 				margin: 0 !important;
 			}
@@ -432,6 +456,63 @@ text-align: right;
 		}
 	}
 
+	.org-kart {
+		margin: 2em 0;
+
+		.org-logo {
+			text-align: center;
+
+			img {
+
+				width: 40%;
+				height: auto;
+				margin: 0 auto;
+			}
+		}
+		.org-info {
+			background: $grey-light;
+			font-size: 1.2em;
+			padding: 0.5em 1em;
+			border-radius: 6px;
+		}
+	}
+	.repr-kommunar {
+		color: #fff;
+
+		div {
+			background: $grey;
+			padding: 1em;
+			margin: 1em 0;
+			border-radius: 6px;
+
+			p {
+				font-weight: 700;
+			}
+			ul {
+				list-style: none;
+
+				li {
+					margin: 0.5em 0;
+				}
+			}
+		}
+	}
+	.repr-dep {
+		div {
+			background: $grey-light;
+			padding: 1em;
+			margin: 1em 0;
+			border-radius: 6px;
+		}
+	}
+	.avfallspyramide {
+		text-align: center;
+
+		img {
+			width: 50%;
+			height: auto;
+		}
+	}
 }
 #beachvid {
 	display: none;
