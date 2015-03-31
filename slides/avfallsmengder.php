@@ -3,7 +3,7 @@
 		<div class="grid50">
 			<h2>Avfallsmengder</h2>
 
-			<p>Mengda innsamla hushaldsavfall i SIM-kommunane auka med 1 % frå 2013 til 2014. Innsamla mengder i 2014 var 15 128 tonn. Totalt mottok SIM 24 948 tonn hushaldsavfall frå innbyggjarane i Sunnhordland. 98 % av det som vart samla inn vart sendt til attvinning.. Attvinningsprosenten har auka mykje sidan 2003, det året SIM starta med å senda avfall til attvinning. Det året var attvinningsprosenten på 48 %.</p>
+			<p>Mengda innsamla hushaldsavfall i SIM-kommunane auka med 1 % frå 2013 til 2014. Innsamla mengder i 2014 var 15 128 tonn. Totalt mottok SIM 24 948 tonn hushaldsavfall frå innbyggjarane i Sunnhordland. 98 % av det som vart samla inn vart sendt til attvinning. Attvinningsprosenten har auka mykje sidan 2003, det året SIM starta med å senda avfall til attvinning. Det året var attvinningsprosenten på 48 %.</p>
 		</div>
 
 		<div class="grid50">
@@ -14,6 +14,15 @@
 			</div>
 		</div>
 	</div>
+</section>
+
+
+<section>
+	<h3>Avfallsmengda</h3>
+
+	<p>Hentefraksjonane (rest, bio og papir) hadde ein liten auke på 1 % frå 2013 til 2014. Totalt hadde innsamla mengder av hushaldsavfall, både henteordning og bringeordning, ein liten nedgong.</p>
+
+	<p>Kvar innbyggjar leverte 415 kg avfall i 2014. Totalt tok SIM hand om 24 948 tonn frå hushaldningane. Størstedelen av desse var utsorterte mengder som kunne gå til attvinning.</p>
 </section>
 
 <section>
@@ -38,7 +47,7 @@
 				?>
 			</div>
 		</div>
-		<p>Til saman: 15 128 tonn</p>
+		<p>Til saman: 14 623 tonn</p>
 	</div>
 </section>
 

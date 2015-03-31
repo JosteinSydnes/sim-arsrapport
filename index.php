@@ -83,7 +83,7 @@
 					<h1 class="color-green">Årsmelding 2014</h1>
 				</section>
 
-				<section data-background="img/backgrounds/hallen_heiane.jpg">
+				<section data-background="img/backgrounds/hallen_heiane.jpg" class="color-white">
 
 					<?php require_once('slides/om_oss.php'); ?>
 
@@ -184,6 +184,8 @@
 							<li><a href="#/10">Attvinning</a></li>
 							<li><a href="#/11">Gebyr</a></li>
 							<li><a href="#/12">Etterkalkulasjon</a></li>
+							<li><a href="#" class="open-accounts-link">Rekneskap</a></li>
+							<li><a href="img/sim_revisor_rapport.pdf">Revisor rapport</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -191,7 +193,7 @@
 
 			<div class="main-footer">
 				<div class="grid33 main-item">
-					<p><a href="http://sim.as/2014">SIM AS | Årsmelding 2014</a></p>
+					<p><a href="http://sim.as/">SIM | Årsmelding 2014</a></p>
 				</div>
 
 				<div class="grid33 aligncenter main-item">
@@ -199,7 +201,7 @@
 				</div>
 
 				<div class="grid33 alignright main-item">
-					<p><a href="accounts.html" id="showaccounts">VIS REKNESKAP <i class="fa fa-caret-right"></i></a></p>
+					<p><a href="#" id="showaccounts">VIS REKNESKAP <i class="fa fa-caret-right"></i></a></p>
 				</div>
 			</div>
 		</footer>
@@ -213,12 +215,23 @@
 			Reveal.initialize({
 				controls: true,
 				progress: false,
+				mouseWheel: true,
 				history: true,
 				center: true,
 				maxScale: 1,
 			    margin: 0,
 
-				transition: 'slide' // none/fade/slide/convex/concave/zoom
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
 			});
 		</script>
 		<script src="js/script.js"></script>

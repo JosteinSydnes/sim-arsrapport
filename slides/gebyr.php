@@ -5,7 +5,34 @@
 </section>
 
 <section>
-	<h3>Gjennomsnittleg renovasjonsabonnement i 2013 2014</h3>
+	<h3>Kommunalt abonnementsgebyr for hus i 2014 </h3>
+
+	<div class="chart">
+		<div class="clear">
+			<div class="grid70">
+				<div class="canvas-holder">
+					<canvas id="fee-subscription" width="650" height="400"></canvas>
+				</div>
+			</div>
+
+			<div class="grid30">
+				<?php
+					$legends = array(
+									array('title' => 'Gebyr til SIM', 'color' => 'green'),
+									array('title' => 'Kommunal eigenkostnad', 'color' => 'orange'),
+									array('title' => 'Totalt abonnementsgebyr', 'color' => 'blue')
+					);
+
+					addlegends($legends);
+				?>
+			</div>
+		</div>
+		<p>I KR, INKL. MVA</p>
+	</div>
+</section>
+
+<section>
+	<h3>Gjennomsnittleg renovasjonsabonnement i 2014</h3>
 
 	<div class="chart">
 		<div class="clear">
@@ -26,7 +53,7 @@
 			</div>
 		</div>
 
-		<p>I KR, INKL. MVA</p>
+		<p>I KR, INKL. MVA - Innkludert kunden sitt val av dunkløysning</p>
 	</div>
 </section>
 
@@ -82,33 +109,6 @@
 			</div>
 		</div>
 
-		<p>I KR, INKL. MVA</p>
-	</div>
-</section>
-
-<section>
-	<h3>Kommunalt abonnementsgebyr for hus i 2014 </h3>
-
-	<div class="chart">
-		<div class="clear">
-			<div class="grid70">
-				<div class="canvas-holder">
-					<canvas id="fee-subscription" width="650" height="400"></canvas>
-				</div>
-			</div>
-
-			<div class="grid30">
-				<?php
-					$legends = array(
-									array('title' => 'Gebyr til SIM', 'color' => 'green'),
-									array('title' => 'Kommunal eigenkostnad', 'color' => 'orange'),
-									array('title' => 'Totalt abonnementsgebyr', 'color' => 'blue')
-					);
-
-					addlegends($legends);
-				?>
-			</div>
-		</div>
 		<p>I KR, INKL. MVA</p>
 	</div>
 </section>

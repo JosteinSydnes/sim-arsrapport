@@ -57,15 +57,18 @@ body {
 			}
 		}
 	}
-	.stack .present:after {
-		content: "\f078";
+	.my-control {
 		position: absolute;
 		left: 0;
-		bottom: -50px;
-		font: normal normal normal 14px/1 FontAwesome;
+		bottom: -25px;
 		font-size: 2em;
 		color: #000;
 		opacity: 0.5;
+
+		&.slide-right {
+			left: 95%;
+		}
+
 	}
 
 	*[class*=grid] {
@@ -478,6 +481,8 @@ text-align: right;
 		}
 		.org-info {
 			background: $grey-light;
+			color: #000;
+			text-shadow: none;
 			font-size: 1.2em;
 			padding: 0.5em 1em;
 			border-radius: 6px;
@@ -488,8 +493,9 @@ text-align: right;
 
 		div {
 			background: $grey;
-			padding: 1em;
-			margin: 1em 0;
+
+			padding: 0.75em;
+			margin: 0.5em 0;
 			border-radius: 6px;
 
 			p {
@@ -507,8 +513,10 @@ text-align: right;
 	.repr-dep {
 		div {
 			background: $grey-light;
-			padding: 1em;
-			margin: 1em 0;
+			color: #000;
+			text-shadow: none;
+			padding: 0.5em;
+			margin: 0.5em 0;
 			border-radius: 6px;
 		}
 	}

@@ -1,4 +1,4 @@
-<section data-background="img/backgrounds/samfunn.jpg">
+<section data-background="img/backgrounds/samfunn.jpg" class="color-white text-shadow">
 	<h2>Ditt avfall</h2>
 	<p>Mengda av innsamla hushaldsavfall på renovasjonsrutene hadde ein liten auke frå 2013 til 2014, medan mengda innsamla hytteavfall var nokonlunde den same. Innsamla næringsavfall på renovasjonsrutene hadde ein nedgong i 2014. Medan besøka på miljøsentralane auka kraftig i fjoråret.</p>
 
@@ -7,21 +7,9 @@
 
 <section>
 	<div class="info-graphic large-icon">
-		<h4><i class="fa fa-recycle"></i> <span class="countmeup">16</span> %</h4>
-		<p>fleire vitjingar ved miljøsentralane i 2014.</p>
+		<h4><i class="fa fa-trash-o"></i> <span class="counttonn">45 753</span> tonn</h4>
+		<p>Totale avfallsmengder i 2014.</p>
 	</div>
-</section>
-
-<section>
-	<h3>Avfallsmengda</h3>
-
-	<p>Hentefraksjonane (rest, bio og papir) hadde ein liten auke på 1 % frå 2013 til 2014. Totalt hadde innsamla mengder av hushaldsavfall, både henteordning og bringeordning, ein liten nedgong.</p>
-
-	<p>Kvar innbyggjar leverte 415 kg avfall i 2014. Totalt tok SIM hand om 24 948 tonn frå hushaldningane. Størstedelen av desse var utsorterte mengder som kunne gå til attvinning.</p>
-
-	<h3>Miljøsentralane</h3>
-
-	<p>Talet på kundar som vitja miljøsentralane auka med 16 %. I 2014 var det 59 030 vitjingar ved dei sju miljøsentralane i 2014. Kundane leverte 9 820 tonn avfall på miljøsentralane. Alt i alt kom 39 % av hushaldsavfallet inn via miljøsentralane. Privatkundar som leverer avfall til miljøsentralen betalar om lag ein fjerdepart av det det kostar å driva tilbodet, næringsdrivande skal betala fulle kostnader.</p>
 </section>
 
 <section>

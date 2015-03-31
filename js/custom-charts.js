@@ -30,30 +30,23 @@ var colors = {
 
 var pieData = [
 	{
-		value: 59,
+		value: 61,
 		color: colors.grey,
 		highlight: colors.greenLight,
 		label: "Restavfall: 8 969 tonn"
 	},
 	{
-		value: 22,
+		value: 23,
 		color: colors.brown,
 		highlight: colors.greenLight,
 		label: "Bioavfall: 3 359 tonn"
 	},
 	{
-		value: 15,
+		value: 16,
 		color: colors.blue,
 		highlight: colors.greenLight,
 		label: "Papir: 2 295 tonn"
-	},
-	{
-		value: 4,
-		color: colors.greyLight,
-		highlight: colors.greenLight,
-		label: "Anna avfall"
 	}
-
 ];
 
 var deponidata = {

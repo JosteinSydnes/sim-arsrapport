@@ -1,9 +1,7 @@
 <section>
 	<h2>Etterkalkulasjon sjølvkostområder</h2>
-</section>
 
-<section>
-	<h3>Kommunane og sjølvkost</h3>
+	<p><strong>Kommunane og sjølvkost</strong></p>
 
 	<p>Avfallsgebyret skal fastsetjast slik at det svarar til dei totale kostnadane kommunen vert påført ved lovpålagt handsaming av hushaldsavfall. Det skal sikrast full kostnadsdekning. Kommunen skal ikkje ha forteneste på slik avfallshandtering, berre kostnader ved, og inntekter frå lovpålagt handtering av hushaldsavfallet skal inngå i berekning av avfallsgebyret.</p>
 

@@ -1,4 +1,4 @@
-<section data-background="img/backgrounds/styret_melding.jpg">
+<section data-background="img/backgrounds/styret_melding.jpg" class="color-white text-shadow">
 	<h2 class="aligncenter">Styret si årsmelding</h2>
 </section>
 
@@ -65,7 +65,7 @@
 					array("name" => "Jorun Skåden", "position" => "Styremedlem", 'img' => 'img/tilsette/styret/jorunn-skaden.jpg', "sign" => "jorun_skaden.png"),
 					array("name" => "Jostein Grov", "position" => "Styremedlem", 'img' => 'img/tilsette/styret/jostein-grov.jpg', "sign" => "jostein_grov.png"),
 					array("name" => "Rune Sandvik", "position" => "Nestleiar", 'img' => 'img/tilsette/styret/rune-sandvik.jpg', "sign" => "rune_sandvik.png"),
-					array("name" => "Reidun Åsheim", "position" => "Leiar", 'img' => 'img/tilsette/styret/reidunn-aasheim.jpg', "sign" => "reidun_asheim.png"),
+					array("name" => "Reidunn Aasheim", "position" => "Leiar", 'img' => 'img/tilsette/styret/reidunn-aasheim.jpg', "sign" => "reidun_asheim.png"),
 					array("name" => "Hein Schaug", "position" => "Styremedlem", 'img' => 'img/tilsette/styret/hein-schaug.jpg', "sign" => "hein_schaug.png"),
 					array("name" => "Edvard Stangeland", "position" => "Styremedlem", 'img' => 'img/tilsette/styret/edvard-stangeland.jpg', "sign" => "edvard_stangeland.png"),
 					array("name" => "Terje Gilje", "position" => "Dagleg leiar", 'img' => 'img/tilsette/styret/terje-gilje.jpg', "sign" => "terje_gilje.png")

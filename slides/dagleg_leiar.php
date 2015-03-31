@@ -2,7 +2,7 @@
 	<div class="grid50 color-white text-shadow">
 		<div>
 			<h2>Miljørett framtid</h2>
-			<p><cite>SIM arbeidar for miljørette og framtidsretta løysingar for innbyggjarane, eigarkommunane og næringslivet.</cite></p>
+			<p><cite>SIM arbeidar for ei miljørett framtid og løysingar for innbyggjarane, eigarkommunane og næringslivet.</cite></p>
 		</div>
 
 		<div class="leader-signature">

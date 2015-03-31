@@ -16,11 +16,16 @@
 			event.preventDefault();
 			$('.nav-footer').toggleClass('show-me');
 
-			$("html").click(function(event) {
+			$("html").on('click touchstart', function(event) {
 			    if ($(event.target).closest('.nav-footer, .footer-action').length === 0) {
 			        $('.nav-footer').removeClass('show-me');
 			    }
 			});
+		});
+
+		$(".open-accounts-link").on('click', function(event) {
+			event.preventDefault();
+			$("#showaccounts").click();
 		});
 
 		var cid;
@@ -43,6 +48,18 @@
 			}, speed);
 		}
 
+		$(".stack section:not(:last-child)").append('<div class="my-control slide-down"><a href="#"><i class="fa fa-chevron-down"></i></a></div>');
+		$(".stack section:last-child").append('<div class="my-control slide-right"><a href="#"><i class="fa fa-chevron-right"></i></a></div>');
+
+		$(".slide-down a").on('click', function(event) {
+			event.preventDefault();
+			Reveal.down();
+		});
+
+		$(".slide-right a").on('click', function(event) {
+			event.preventDefault();
+			Reveal.right();
+		});
 
 		Reveal.addEventListener( 'slidechanged', function( event ) {
 			// Vis bakgrunnsvideo
@@ -59,6 +76,10 @@
 			}
 
 			if(event.indexh == 5 && event.indexv == 1) {
+				setCounter("counttonn", 0, 24948, 111, 1);
+			}
+
+			if(event.indexh == 8 && event.indexv == 1) {
 				setCounter("countmeup", 0, 16, 1, 50);
 			}
 
@@ -66,7 +87,7 @@
 				setCounter("avfallcount", 0, 98, 1, 10);
 			}
 
-			if(event.indexh == 8 && event.indexv == 1) {
+			if(event.indexh == 8 && event.indexv == 3) {
 				setCounter("miljocount", 0, 59030, 101, 1);
 			}
 
@@ -101,14 +122,14 @@
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn"
 				});
 			}
-			if(event.indexh == 8 && event.indexv == 2) {
+			if(event.indexh == 8 && event.indexv == 4) {
 				var ctvisits = $("#visits-sentral").get(0).getContext("2d");
 				var myLineVisits = new Chart(ctvisits).Line(visitsData, {
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> besøkande",
 					datasetStrokeWidth : 4
 				});
 			}
-			if(event.indexh == 8 && event.indexv == 3) {
+			if(event.indexh == 8 && event.indexv == 5) {
 				var ctammount = $("#ammount-sentral").get(0).getContext("2d");
 				var myLineAmmount = new Chart(ctammount).Line(ammountData, {
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn",
@@ -128,24 +149,20 @@
 				});
 			}
 			if(event.indexh == 11 && event.indexv == 1) {
+				var ctfeesub = $("#fee-subscription").get(0).getContext("2d");
+				var myBarFeeSub = new Chart(ctfeesub).Bar(feesubData);
+			}
+			if(event.indexh == 11 && event.indexv == 2) {
 				var ctgjennomsnitt = $("#gjennomsnitt-renovasjon").get(0).getContext("2d");
 				var gjennomsnittren = new Chart(ctgjennomsnitt).Bar(gjennomsnittRenovasjonData);
 			}
-			if(event.indexh == 11 && event.indexv == 2) {
+			if(event.indexh == 11 && event.indexv == 3) {
 				var ctrenfritid = $("#renovasjon-fritid").get(0).getContext("2d");
 				var renfritid = new Chart(ctrenfritid).Bar(renovasjonFritidData);
 			}
-			if(event.indexh == 11 && event.indexv == 3) {
-				var ctslam = $("#slam-gebyr").get(0).getContext("2d");
-				var slamgebyr = new Chart(ctslam).Bar(slamgebyrData, {
-					scaleBeginAtZero : false
-				});
-			}
 			if(event.indexh == 11 && event.indexv == 4) {
-				var ctfeesub = $("#fee-subscription").get(0).getContext("2d");
-				var myBarFeeSub = new Chart(ctfeesub).Bar(feesubData, {
-					scaleBeginAtZero : false
-				});
+				var ctslam = $("#slam-gebyr").get(0).getContext("2d");
+				var slamgebyr = new Chart(ctslam).Bar(slamgebyrData);
 			}
 			if(event.indexh == 11 && event.indexv == 5) {
 				var ctfeeused = $("#fee-used").get(0).getContext("2d");
