@@ -1,4 +1,4 @@
-<section data-background="img/backgrounds/attvinning.jpg" class="color-white text-shadow">
+<section data-background="img/backgrounds/attvinning.jpg">
 	<h2>Attvinning</h2>
 	<p>Avfall vert attvunne på tre måtar: Ombruk, materialattvinning og energiutnytting. Avfallshierarkiet viser kva som gjev best effekt med tanke på miljøet.</p>
 </section>

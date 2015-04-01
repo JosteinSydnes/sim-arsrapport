@@ -27,7 +27,7 @@
 				?>
 			</div>
 		</div>
-		<p>I KR, INKL. MVA</p>
+		<p>Tall i kr inkludert meirverdiavgift</p>
 	</div>
 </section>
 
@@ -53,7 +53,7 @@
 			</div>
 		</div>
 
-		<p>I KR, INKL. MVA - Innkludert kunden sitt val av dunkløysning</p>
+		<p>Tall i kr inkludert meirverdiavgift - Innkludert kunden sitt val av dunkløysning</p>
 	</div>
 </section>
 
@@ -81,7 +81,7 @@
 			</div>
 		</div>
 
-		<p>I KR, INKL. MVA</p>
+		<p>Tall i kr inkludert meirverdiavgift</p>
 	</div>
 </section>
 
@@ -109,7 +109,7 @@
 			</div>
 		</div>
 
-		<p>I KR, INKL. MVA</p>
+		<p>Tall i kr inkludert meirverdiavgift</p>
 	</div>
 </section>
 
@@ -139,6 +139,6 @@
 				?>
 			</div>
 		</div>
-		<p>Rekna ut frå eit snittgebyr på 2049 kroner i 2014</p>
+		<p>Rekna ut frå eit snittgebyr på 2 049 kroner i 2014</p>
 	</div>
 </section>

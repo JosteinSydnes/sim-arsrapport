@@ -1,6 +1,6 @@
-<section data-background="img/backgrounds/samfunn.jpg" class="color-white text-shadow">
+<section data-background="img/backgrounds/samfunn.jpg">
 	<h2>Ditt avfall</h2>
-	<p>Mengda av innsamla hushaldsavfall på renovasjonsrutene hadde ein liten auke frå 2013 til 2014, medan mengda innsamla hytteavfall var nokonlunde den same. Innsamla næringsavfall på renovasjonsrutene hadde ein nedgong i 2014. Medan besøka på miljøsentralane auka kraftig i fjoråret.</p>
+	<p>Mengda av innsamla hushaldsavfall på renovasjonsrutene hadde ein liten auke frå 2013 til 2014, medan mengda innsamla hytteavfall var nokonlunde den same. Innsamla næringsavfall på renovasjonsrutene hadde ein nedgong i 2014. Medan besøka på miljøsentralane auka kraftig i fjoråret. </p>
 
 	<p>Samanlikna med talet på kundar vart det i 2014 registrert svært få klager.</p>
 </section>
@@ -154,6 +154,16 @@
 </section>
 
 <section>
+	<h3>Hytterenovasjon</h3>
+
+	<p>Det vert stadig bygd nye hytter i SIM-kommunane, og ordninga for hytterenovasjon er under kontinuerleg utvikling. Nye konteinarstader kjem til og kapasiteten på eksisterande lokalitetar vert auka. I hyttekommunane var det i 2014 tøming to gonger per. veke i heile juli og halve august, mot normalt éin gong i veka i sommarhalvåret.</p>
+
+	<h3>Deponi</h3>
+
+	<p>I 2014 vart det levert 8 075 tonn avfall til deponiet i Svartasmoget, ein reduksjon på 29,8 % frå året før. Årsaka til nedgongen er ein i 2013 tok i mot større mengder frå næringslivet. Den som leverer avfall til deponi skal kontrollera og gå god for at avfallet kan leverast til deponiet, SIM kontrollerer avfallet visuelt før og etter lossing, og sjekkar kvart 100. lass nøgnare. Ved behov vert det teke prøvar av avfallet.</p>
+</section>
+
+<section>
 	<h3>Mengder til deponi</h3>
 
 	<div class="chart">
@@ -175,16 +185,6 @@
 		</div>
 		<p>Mengder levert til deponi</p>
 	</div>
-</section>
-
-<section>
-	<h3>Hytterenovasjon</h3>
-
-	<p>Det vert stadig bygd nye hytter i SIM-kommunane, og ordninga for hytterenovasjon er under kontinuerleg utvikling. Nye konteinarstader kjem til og kapasiteten på eksisterande lokalitetar vert auka. I hyttekommunane var det i 2014 tøming to gonger per. veke i heile juli og halve august, mot normalt éin gong i veka i sommarhalvåret.</p>
-
-	<h3>Deponi</h3>
-
-	<p>I 2014 vart det levert 8 075 tonn avfall til deponiet i Svartasmoget, ein reduksjon på 29,8 % frå året før. Årsaka til nedgongen er ein i 2013 tok i mot større mengder frå næringslivet. Den som leverer avfall til deponi skal kontrollera og gå god for at avfallet kan leverast til deponiet, SIM kontrollerer avfallet visuelt før og etter lossing, og sjekkar kvart 100. lass nøgnare. Ved behov vert det teke prøvar av avfallet.</p>
 </section>
 
 <section>

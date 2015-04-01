@@ -7,13 +7,13 @@
 		</div>
 
 		<div class="grid50 color-white">
-			<div class="info-graphic large-icon"><p><i class="fa fa-users"></i> <span class="omosskundar">44265</span> kundar</p></div>
+			<div class="info-graphic large-icon"><p><i class="fa fa-users"></i> <span class="omosskundar">44265</span> abonnentar</p></div>
 			<p><strong class="color-green">Eigarkommunar:</strong> Austevoll, Bømlo, Fitjar, Kvinnherad, Stord, Sveio og Tysnes.</p>
-			<p><strong class="color-green">Innbyggjarar:</strong> 60076</p>
-			<p><strong class="color-green">Abonnentar:</strong> Hus: 25254  / Hytter: 7572</p>
-			<p><strong class="color-green">Abonnentar som heimekomposterer:</strong> 3444</p>
+			<p><strong class="color-green">Innbyggjarar:</strong> 60 076</p>
+			<p><strong class="color-green">Abonnentar:</strong> Hus: 25 254  / Hytter: 7 572</p>
+			<p><strong class="color-green">Abonnentar som heimekomposterer:</strong> 3 444</p>
 			<p><strong class="color-green">Kilo avfall per innbyggjar 2014:</strong> 415 kg</p>
-			<p><strong class="color-green">Kundar med slamavskiljar:</strong> 11439</p>
+			<p><strong class="color-green">Abonnentar med slamavskiljar:</strong> 11 439</p>
 		</div>
 	</div>
 </section>
@@ -111,27 +111,27 @@
 
 	<h3>Styre</h3>
 
-	<p>Det er éin styremedlem frå kvar kommune, med personleg varamedlem. Styremedlemene vert valde for to år om gongen, og slik at halvparten står på val kvart år. I tillegg er det éin representant frå dei tilsette i styret. Representantskapet vel styremedlemene etter at medlemskommunane har peika ut kandidatar. Styret hadde elleve møte i 2014.</p>
+	<p>Det er éin styremedlem frå kvar kommune, med personleg varamedlem. Styremedlemene vert valde for to år om gongen, og slik at halvparten står på val kvart år. I tillegg er det éin observatør frå dei tilsette i styret. Representantskapet vel styremedlemene. Styret hadde elleve møte i 2014.</p>
 </section>
 
 <section>
-	<h2>Dotterselskap og andre eigarinteresser</h2>
+	<h3>Dotterselskap og andre eigarinteresser</h3>
 
-	<h3>SIM Næring AS  (heileigd)</h3>
+	<p><strong>SIM Næring AS  (heileigd)</strong></p>
 
 	<p>Målsetjinga til selskapet var å gje næringskundar eit heilskapleg og god avfallshandtering. Kontor og sorteringsanlegg var på Eldøyane næringspark på Eldøyane i Stord kommune. 31.12.13 hadde selskapet 57 tilsette. Selskapet vart seld til Ragn- Sells AS 1. oktober.</p>
 
-	<h3>SIM Tankrenovasjon AS (heileigd av SIM N)</h3>
+	<p><strong>SIM Tankrenovasjon AS (heileigd av SIM N)</strong></p>
 
 	<p>SIM Tank heldt til på Frakkagjerd i Nord-Rogaland og tilbydde slamtømming, innsamling av farleg avfall og suge- og spyletenester. 31.12.13 hadde selskapet 19 tilsette. Selskapet vart seld til Ragn- Sells AS 1. oktober.</p>
 
-	<h3>SLab</h3>
+	<p><strong>SLab</strong></p>
 
 	<p>SLab er eit laboratorium for akvakultur, vatn og mat og vart stifta januar 2004. SIM har ein eigardel på 7,4 %.</p>
 
-	<h3>Rekom AS</h3>
+	<p><strong>Rekom AS</strong></p>
 
-	<p>Rekom er eigd av 58 kommunar og interkommunale renovasjonsselskap, selskapet skal omsetja avfallsfraksjonar. SIM eig 200 av 4 699 aksjar i Rekom AS, ein eigardel på 4,26 %.</p>
+	<p>Rekom er eigd av 58 kommunar og interkommunale renovasjonsselskap, selskapet skal omsetja avfallsfraksjonar. SIM eig 200 av 4 699 aksjar i Rekom AS, ein eigardel på 4,26 %. </p>
 </section>
 
 <section>

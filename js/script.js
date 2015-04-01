@@ -76,7 +76,7 @@
 			}
 
 			if(event.indexh == 5 && event.indexv == 1) {
-				setCounter("counttonn", 0, 24948, 111, 1);
+				setCounter("counttonn", 0, 45753, 111, 1);
 			}
 
 			if(event.indexh == 5 && event.indexv == 2) {
@@ -87,7 +87,7 @@
 				setCounter("miljocount", 0, 59030, 101, 1);
 			}
 
-			if(event.indexh == 7 && event.indexv == 3) {
+			if(event.indexh == 7 && event.indexv == 2) {
 				setCounter("countmeup", 0, 16, 1, 50);
 			}
 
@@ -117,20 +117,20 @@
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn"
 				});
 			}
-			if(event.indexh == 5 && event.indexv == 8) {
+			if(event.indexh == 5 && event.indexv == 9) {
 				var ctdeponi = $("#bar-chart").get(0).getContext("2d");
 				var myBarChart = new Chart(ctdeponi).Bar(deponidata, {
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn"
 				});
 			}
-			if(event.indexh == 7 && event.indexv == 4) {
+			if(event.indexh == 7 && event.indexv == 3) {
 				var ctvisits = $("#visits-sentral").get(0).getContext("2d");
 				var myLineVisits = new Chart(ctvisits).Line(visitsData, {
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> besøkande",
 					datasetStrokeWidth : 4
 				});
 			}
-			if(event.indexh == 7 && event.indexv == 5) {
+			if(event.indexh == 7 && event.indexv == 4) {
 				var ctammount = $("#ammount-sentral").get(0).getContext("2d");
 				var myLineAmmount = new Chart(ctammount).Line(ammountData, {
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn",

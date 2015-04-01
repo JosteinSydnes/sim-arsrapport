@@ -13,7 +13,7 @@
 <section>
 	<h3>SIM og sjølvkost</h3>
 
-	<p>Hovudaktivitetane til SIM er sjølvkostområda hushaldsrenovasjon og slamtøming av private slamtankar. Selskapet føl opp dei forskjellige kostnadsområda gjennom avdelingsrekneskap.</p>
+	<p>Hovudaktivitetane til SIM er sjølvkostområda hushaldsrenovasjon og slamtøming av private slamtankar. Selskapet føl opp dei forskjellige kostnadsområda gjennom avdelingsrekneskap. </p>
 
 	<table border="0" class="nice-table">
 		<thead>
@@ -32,14 +32,22 @@
 
 			<tr>
 				<td>Kostnader</td>
-				<td>kr 51 485 697</td>
+				<td>kr 50 614 195</td>
 				<td>kr 7 598 135</td>
+			</tr>
+
+			<tr class="empty-row">
+				<td colspan="3"></td>
 			</tr>
 
 			<tr class="table-sum">
 				<td>Årsresultat</td>
-				<td>kr -446 439</td>
+				<td>kr 425 063</td>
 				<td>kr 777 477</td>
+			</tr>
+
+			<tr class="empty-row">
+				<td colspan="3"></td>
 			</tr>
 
 			<tr>
@@ -48,9 +56,13 @@
 				<td>kr 1 511 149</td>
 			</tr>
 
+			<tr class="empty-row">
+				<td colspan="3"></td>
+			</tr>
+
 			<tr class="table-sum">
 				<td>Totale bunde fond i SIM 31.12.2014</td>
-				<td>kr 10 870 040</td>
+				<td>kr 11 741 544</td>
 				<td>kr 2 326 478</td>
 			</tr>
 		</tbody>
@@ -84,7 +96,7 @@
 			<tr>
 				<td>Austevoll</td>
 				<td>9</td>
-				<td>985 151</td>
+				<td>1 056 739</td>
 				<td>16</td>
 				<td>371 212</td>
 			</tr>
@@ -92,7 +104,7 @@
 			<tr>
 				<td>Bømlo</td>
 				<td>19</td>
-				<td>2 054 867</td>
+				<td>2 230 893</td>
 				<td>23</td>
 				<td>546 647</td>
 			</tr>
@@ -100,7 +112,7 @@
 			<tr>
 				<td>Fitjar</td>
 				<td>5</td>
-				<td>557 827</td>
+				<td>587 077</td>
 				<td>6</td>
 				<td>150 291</td>
 			</tr>
@@ -108,7 +120,7 @@
 			<tr>
 				<td>Kvinnherad</td>
 				<td>22</td>
-				<td>2 436 065</td>
+				<td>2 583 140</td>
 				<td>24</td>
 				<td>560 247</td>
 			</tr>
@@ -116,7 +128,7 @@
 			<tr>
 				<td>Stord</td>
 				<td>27</td>
-				<td>2 973 829</td>
+				<td>3 170 217</td>
 				<td>5</td>
 				<td>106 746</td>
 			</tr>
@@ -132,7 +144,7 @@
 			<tr>
 				<td>Tysnes</td>
 				<td>7</td>
-				<td>727 894</td>
+				<td>821 908</td>
 				<td>11</td>
 				<td>263 780</td>
 			</tr>
@@ -143,7 +155,7 @@
 <section>
 	<h3>SIM sin praksis for 2014</h3>
 
-	<p>Styret meiner at ein føl rettleiaren for sjølvkost så langt det er mogeleg utan å bryta lover, forskrifter og selskapsavtalen, som er bindande for selskapet.</p>
+	<p>Styret meiner at ein føl rettleiaren for sjølvkost så langt det er mogeleg utan å bryta lover, forskrifter og selskapsavtalen, som er bindande for selskapet. </p>
 
 	<p>SIM sin selskapsavtale seier at selskapet ikkje skal ha erverv til føremål, og ikkje kan betala utbytte. Forureiningslova seier at «gebyret må ikkje overstige kommunens kostnader», og i selskapsavtalen står det «dei årlege utgiftene til selskapet skal dekkast av avgifter for dei ulike renovasjonstenestene».</p>
 

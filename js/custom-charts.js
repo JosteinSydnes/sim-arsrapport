@@ -194,7 +194,7 @@ var visitsData = {
 	labels: ["2009", "2010", "2011", "2012", "2013", "2014"],
 	datasets: [
 		{
-			label: "Besøk på miljøsentralane",
+			label: "Kundar på miljøsentralane",
 			fillColor: "rgba("+ colors.greenRgb +",0)",
 			strokeColor: "rgba("+ colors.greenRgb +",1)",
 			pointColor: "rgba("+ colors.greyRgb +",1)",

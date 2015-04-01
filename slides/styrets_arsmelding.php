@@ -1,20 +1,19 @@
-<section data-background="img/backgrounds/styret_melding.jpg" class="color-white text-shadow">
+<section data-background="img/backgrounds/styret_melding.jpg">
 	<h2 class="aligncenter">Styret si årsmelding</h2>
 </section>
 
 <section>
 	<h3>Driftsaktivitet</h3>
-	<p>Sunnhordland Interkommunale Miljøverk IKS (SIM) sin hovudaktivitet er innsamling og handsaming av kommunalt avfall, tømming av slamtankar og handsaming av avvatna slam. I tillegg tek selskapet imot avfall frå næringslivet til slutthandsaming ved komposteringsanlegg eller deponi. Selskapet sitt hovudkontor ligg i Fitjar kommune, aktiviteten går føre seg i kommunane Austevoll, Bømlo, Fitjar, Kvinnherad, Stord, Sveio og Tysnes. Kundane er godt nøgde med selskapet og renovasjonsordninga, dersom ein samanliknar talet på klager sett opp mot talet på kundar. Selskapet har ingen pågåande forsknings- eller utviklingsaktivitetar.
-	</p>
+	<p>Sunnhordland Interkommunale Miljøverk IKS (SIM) sin hovudaktivitet er innsamling og handsaming av kommunalt avfall, tømming av slamtankar og handsaming av avvatna slam. I tillegg tek selskapet imot avfall frå næringslivet til slutthandsaming ved komposteringsanlegg eller deponi. Selskapet sitt hovudkontor ligg i Fitjar kommune, aktiviteten går føre seg i kommunane Austevoll, Bømlo, Fitjar, Kvinnherad, Stord, Sveio og Tysnes. Kundane er godt nøgde med selskapet og renovasjonsordninga, dersom ein samanliknar talet på klager sett opp mot talet på kundar. Selskapet har ingen pågåande forsknings- eller utviklingsaktivitetar.</p>
 </section>
 
 <section>
 	<h3>Økonomi</h3>
-	<p>I 2014 hadde SIM ei inntekt på 81 millionar kroner. Driftsresultatet til selskapet var på minus 14,4 millionar kroner. Salet av dotterselskapa gav ein gevinst på 49,7 milllionar kroner, slik at resultatet til selskapet er eit overskot på37,7 millionar kroner. Gevinsten frå salet av dotterselskapa vert sett av i eit miljøfond, i tråd med vedtak i representantskapet.</p>
+	<p>I 2014 hadde SIM ei inntekt på 81 millionar kroner. Driftsresultatet til selskapet var på minus 15,3 millionar kroner. Salet av dotterselskapa gav ein gevinst på 49,7 milllionar kroner, slik at resultatet til selskapet er eit overskot på 36,7 millionar kroner. Gevinsten frå salet av dotterselskapa vert sett av i eit miljøfond, i tråd med vedtak i representantskapet.</p>
 
-	<p>SIM har ansvar for å avslutta deponiet på ein tilfredsstillande måte, og for å driva det forsvarleg i minst 30 år etter avslutting. Selskapet skal årleg vurdera kva som er nødvendige avsetjingar for å dekke framtidige kostnader, i rekneskapen for 2014 er det sett av 16,1 millionar kroner ekstra slik at det totalt er sett av 66 millionar kroner i rekneskapen.</p>
+	<p>SIM har ansvar for å avslutta deponiet på ein tilfredsstillande måte, og for å driva det forsvarleg i minst 30 år etter avslutting. Selskapet skal årleg vurdera kva som er nødvendige avsetjingar for å dekke framtidige kostnader, i rekneskapen for 2014 er det sett av 16,1 millionar kroner ekstra, slik at det totalt er sett av 66 millionar kroner i rekneskapen.</p>
 
-	<p>Selskapet hadde eit underskot på kommunalt avfall på 0,46 millionar kroner, som vart trekt av renovasjonsfondet, Dette er ved slutten av året 10,8 millionar. Slamtømeaktivitetane hadde eit overskot på 0,78 millionar kroner. Overskotet vert tilført slamfondet som ved årsskiftet var på pluss 2,3 millionar kroner. Fonda skal byggjast ned dei næraste åra. Ved berekning av sjølvkost (etterkalkyle) legg selskapet til grunn lova, selskapsavtalen og rettleiaren for berekning av sjølvkost. Selskapet belastar ikkje gebyra kalkulatoriske renter.</p>
+	<p>Selskapet hadde eit overskot på kommunalt avfall på 0,4 millionar kroner, som vart tilført renovasjonsfondet, Dette er ved slutten av året 11,2 millionar kroner. Slamtømeaktivitetane hadde eit overskot på 0,78 millionar kroner. Overskotet vert tilført slamfondet som ved årsskiftet var på pluss 2,3 millionar kroner. Fonda skal byggjast ned dei næraste åra. Ved berekning av sjølvkost (etterkalkyle) legg selskapet til grunn lova, selskapsavtalen og rettleiaren for berekning av sjølvkost. Selskapet belastar ikkje gebyra kalkulatoriske renter. </p>
 
 	<p>Styret meiner SIM er godt budd på framtidige miljøkrav, då eigenkapitalen i selskapet er god. Årsrekneskapen og konsernrekneskapen gir eit rett bilete av SIM og konsernet sine eigneluter og gjeld, finansiell stilling og resultat. Føresetnadene for framleis drift er til stades, og styret stadfestar desse.</p>
 </section>

@@ -150,6 +150,12 @@
 
 				</section>
 
+				<section>
+
+					<?php require_once('slides/revisor.php'); ?>
+
+				</section>
+
 			</div>
 
 		</div>
@@ -172,13 +178,13 @@
 						</ul>
 
 						<ul class="grid50">
-							<li><a href="#/8">Miljøsentralen</a></li>
-							<li><a href="#/9">Kompost</a></li>
-							<li><a href="#/10">Attvinning</a></li>
-							<li><a href="#/11">Gebyr</a></li>
-							<li><a href="#/12">Etterkalkulasjon</a></li>
+							<li><a href="#/7">Miljøsentralen</a></li>
+							<li><a href="#/8">Kompost</a></li>
+							<li><a href="#/9">Attvinning</a></li>
+							<li><a href="#/10">Gebyr</a></li>
+							<li><a href="#/11">Etterkalkulasjon</a></li>
 							<li><a href="#" class="open-accounts-link">Rekneskap</a></li>
-							<li><a href="img/sim_revisor_rapport.pdf">Revisor rapport</a></li>
+							<li><a href="#/12">Revisor melding</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -186,7 +192,7 @@
 
 			<div class="main-footer">
 				<div class="grid33 main-item">
-					<p><a href="http://sim.as/">SIM | Årsmelding 2014</a></p>
+					<p><a href="http://sim.as/" title="Til hovudsida">SIM</a> | <a href="http://sim.as/arsmelding-2014/" title="Årsmelding 2014">Årsmelding 2014</a></p>
 				</div>
 
 				<div class="grid33 aligncenter main-item">
@@ -207,7 +213,7 @@
 		<script>
 			Reveal.initialize({
 				controls: true,
-				progress: false,
+				progress: true,
 				mouseWheel: true,
 				history: true,
 				center: true,
