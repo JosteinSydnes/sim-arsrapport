@@ -122,12 +122,6 @@
 
 				<section>
 
-					<?php require_once('slides/avfallsmengder.php'); ?>
-
-				</section>
-
-				<section>
-
 					<?php require_once('slides/miljosentralar.php'); ?>
 
 				</section>
@@ -178,7 +172,6 @@
 						</ul>
 
 						<ul class="grid50">
-							<li><a href="#/7">Avfallsmengder</a></li>
 							<li><a href="#/8">Miljøsentralen</a></li>
 							<li><a href="#/9">Kompost</a></li>
 							<li><a href="#/10">Attvinning</a></li>

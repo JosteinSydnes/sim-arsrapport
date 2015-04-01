@@ -60,7 +60,7 @@ var deponidata = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: colors.grey,
-            data: [27.157, 27.157, 28.362, 26.726, 30.146, 32.293, 36.454, 40.604, 41.028, 37.952, 13.248, 5.568, 5.185, 11.100, 8.075]
+            data: [27157, 27157, 28362, 26726, 30146, 32293, 36454, 40604, 41028, 37952, 13248, 5568, 5185, 11100, 8075]
         }
     ]
 };
@@ -408,7 +408,7 @@ var kompostData = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba("+ colors.brownRgb +",1)",
-			data: [10244, 8782, 8810, 8952, 9953, 6641]
+			data: [10244, 8782, 8810, 8952, 9953, 10511]
 		}
 	]
 };

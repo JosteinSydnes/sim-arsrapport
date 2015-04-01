@@ -4,6 +4,7 @@
 </section>
 
 <section>
+	<h3>Avfallpyramiden</h3>
 	<p class="avfallspyramide"><img src="img/avfallspyramiden.png" alt="Afallspyramiden"></p>
 </section>
 

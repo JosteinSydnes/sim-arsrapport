@@ -5,23 +5,10 @@
 </section>
 
 <section>
-	<div class="info-graphic large-icon">
-		<h4><i class="fa fa-recycle"></i> <span class="countmeup">16</span> %</h4>
-		<p>fleire vitjingar ved miljøsentralane i 2014.</p>
-	</div>
-</section>
-
-<section>
-	<h3>Miljøsentralane</h3>
-
-	<p>Talet på kundar som vitja miljøsentralane auka med 16 %. I 2014 var det 59 030 vitjingar ved dei sju miljøsentralane i 2014. Kundane leverte 9 820 tonn avfall på miljøsentralane. Alt i alt kom 39 % av hushaldsavfallet inn via miljøsentralane. Privatkundar som leverer avfall til miljøsentralen betalar om lag ein fjerdepart av det det kostar å driva tilbodet, næringsdrivande skal betala fulle kostnader.</p>
-</section>
-
-<section>
 	<div class="clear">
 		<div class="grid50">
-			<h3>Besøkande i 2014</h3>
-			<p>SIM sine miljøsentralar hadde ein auke på i besøkstalet på 16 % frå 2013 til 2014 på . Mengda avfall levert til miljøsentralen er nokon lunde stabil.</p>
+			<h3>Kundar i 2014</h3>
+			<p>SIM sine miljøsentralar hadde ein kundeaukning på 16 % frå 2013 til 2014. Mengda avfall levert til miljøsentralen er nokon lunde stabil.</p>
 		</div>
 
 		<div class="grid50">
@@ -33,7 +20,20 @@
 </section>
 
 <section>
-	<h3>Besøk SIM sine miljøsentralar</h3>
+	<h3>Miljøsentralane</h3>
+
+	<p>Talet på kundar som vitja miljøsentralane auka med 16 %. I 2014 var det 59 030 vitjingar ved dei sju miljøsentralane i 2014. Kundane leverte 9 820 tonn avfall på miljøsentralane. Alt i alt kom 39 % av hushaldsavfallet inn via miljøsentralane. Privatkundar som leverer avfall til miljøsentralen betalar om lag ein fjerdepart av det det kostar å driva tilbodet, næringsdrivande skal betala fulle kostnader.</p>
+</section>
+
+<section>
+	<div class="info-graphic large-icon">
+		<h4><i class="fa fa-recycle"></i> <span class="countmeup">16</span> %</h4>
+		<p>fleire vitjingar ved miljøsentralane i 2014.</p>
+	</div>
+</section>
+
+<section>
+	<h3>Kundar SIM sine miljøsentralar</h3>
 
 	<div class="chart">
 		<div class="clear">
@@ -46,14 +46,14 @@
 			<div class="grid30">
 				<?php
 					$legends = array(
-									array('title' => 'Besøkande', 'color' => 'green')
+									array('title' => 'Kundevitjingar hjå miljøsentralar', 'color' => 'green')
 					);
 					addlegends($legends);
 				?>
 			</div>
 		</div>
 
-		<p>Besøk SIM sine miljøsentralar i 2014 var 59030 personar</p>
+		<p>Kundar hjå SIM sine miljøsentralar i 2014 var 59030 personar</p>
 	</div>
 
 

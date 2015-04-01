@@ -259,7 +259,7 @@ text-align: right;
 		}
 		* {
 			//background: #fff;
-			//@include radial-gradient(rgba(255,255,255,0.7), rgba(255,255,255,1));
+			@include radial-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.8));
 		}
 	}
 

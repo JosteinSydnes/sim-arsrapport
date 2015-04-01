@@ -18,7 +18,7 @@
 			<div class="grid30">
 				<?php
 					$legends = array(
-									array('title' => 'Kompost', 'color' => 'brown')
+									array('title' => 'Mengder til kompostering', 'color' => 'brown')
 					);
 					addlegends($legends);
 				?>
@@ -42,7 +42,7 @@
 			<div class="grid30">
 				<?php
 					$legends = array(
-									array('title' => 'Kompost', 'color' => 'brown')
+									array('title' => 'Selde mengder kompost', 'color' => 'brown')
 					);
 					addlegends($legends);
 				?>
