@@ -1,5 +1,18 @@
-<section data-background="img/backgrounds/styret_melding.jpg">
-	<h2 class="aligncenter">Styret si årsmelding</h2>
+<section data-background="img/tilsette/styret/styreleiar.jpg">
+	<div class="grid50 color-white text-shadow">
+		<div>
+			<h2>Styret si årsmelding</h2>
+			<p><cite>SIM er eit levande eksempel på at det går fint å levera gode og rimelige kommunale tenester til ein region, men det føreset at styret og selskapet har fokus på å tena regionen og ikkje enkeltkommunar i regionen.</cite></p>
+		</div>
+
+		<div class="leader-signature">
+			<div class="grid50 grid-right aligncenter">
+				<img src="img/tilsette/styret/signatur-styret/reidun_asheim_kvit.png" alt="Signatur Reidunn Aasheim">
+				<p>Reidunn Aasheim</p>
+				<p>Styreleiar</p>
+			</div>
+		</div>
+	</div>
 </section>
 
 <section>
@@ -55,7 +68,7 @@
 </section>
 
 <section>
-	<h3 class="aligncenter">Fitjar, 17. mars 2015.</h3>
+	<h3 class="aligncenter">Fitjar, 13. mars 2015.</h3>
 
 	<div class="styre-signatur">
 		<?php
@@ -73,7 +86,7 @@
 			foreach ($signatures as $sign) : ?>
 
 				<div class="grid25 signatur">
-					<div class="styremedlem-foto" style="background-image: url(<?php echo $sign['img'] ?>)"><!-- <img src="<?php echo $sign['img'] ?>" alt="<?php echo $sign['name']; ?>"> -->
+					<div class="styremedlem-foto" style="background-image: url(<?php echo $sign['img']; ?>)">
 					</div>
 					<img src="img/tilsette/styret/signatur-styret/<?php echo $sign['sign']; ?>" alt="<?php echo $sign['position']; ?> <?php echo $sign['name']; ?>">
 					<p><?php echo $sign['name']; ?></p>

@@ -10,10 +10,11 @@
 			<div class="info-graphic large-icon"><p><i class="fa fa-users"></i> <span class="omosskundar">44265</span> abonnentar</p></div>
 			<p><strong class="color-green">Eigarkommunar:</strong> Austevoll, Bømlo, Fitjar, Kvinnherad, Stord, Sveio og Tysnes.</p>
 			<p><strong class="color-green">Innbyggjarar:</strong> 60 076</p>
-			<p><strong class="color-green">Abonnentar:</strong> Hus: 25 254  / Hytter: 7 572</p>
+			<p><strong class="color-green">Hushalds abonnentar:</strong>25 254</p>
+			<p><strong class="color-green">Hytte abonnentar:</strong>7 572</p>
 			<p><strong class="color-green">Abonnentar som heimekomposterer:</strong> 3 444</p>
-			<p><strong class="color-green">Kilo avfall per innbyggjar 2014:</strong> 415 kg</p>
 			<p><strong class="color-green">Abonnentar med slamavskiljar:</strong> 11 439</p>
+			<p><strong class="color-green">Kilo avfall per innbyggjar 2014:</strong> 415 kg</p>
 		</div>
 	</div>
 </section>
@@ -85,7 +86,7 @@
 
 			<div>
 				<p><strong>Styret</strong></p>
-				<p>7 medlemer og 1 observatør for tilsette.</p>
+				<p>7 medlemer og 1 representant for tilsette.</p>
 				<p><strong>Leiar:</strong></p>
 				<p>Reidunn Aasheim, Stord</p>
 			</div>
@@ -111,7 +112,7 @@
 
 	<h3>Styre</h3>
 
-	<p>Det er éin styremedlem frå kvar kommune, med personleg varamedlem. Styremedlemene vert valde for to år om gongen, og slik at halvparten står på val kvart år. I tillegg er det éin observatør frå dei tilsette i styret. Representantskapet vel styremedlemene. Styret hadde elleve møte i 2014.</p>
+	<p>Det er éin styremedlem frå kvar kommune, med personleg varamedlem. Styremedlemene vert valde for to år om gongen, og slik at halvparten står på val kvart år. I tillegg er det éin representant frå dei tilsette i styret. Representantskapet vel styremedlemene. Styret hadde elleve møte i 2014.</p>
 </section>
 
 <section>
@@ -131,7 +132,7 @@
 
 	<p><strong>Rekom AS</strong></p>
 
-	<p>Rekom er eigd av 58 kommunar og interkommunale renovasjonsselskap, selskapet skal omsetja avfallsfraksjonar. SIM eig 200 av 4 699 aksjar i Rekom AS, ein eigardel på 4,26 %. </p>
+	<p>Rekom er eigd av 58 kommunar og interkommunale renovasjonsselskap, selskapet skal omsetja avfallsfraksjonar. SIM eig 200 av 4 699 aksjar i Rekom AS, ein eigardel på 4,26 %.</p>
 </section>
 
 <section>

@@ -16,17 +16,14 @@
 			event.preventDefault();
 			$('.nav-footer').toggleClass('show-me');
 
-			$("html").on('click touchstart', function(event) {
-			    if ($(event.target).closest('.nav-footer, .footer-action').length === 0) {
+			$("html").on('click', function(event) {
+			    if ($(event.target).closest('.footer-action').length === 0) {
 			        $('.nav-footer').removeClass('show-me');
 			    }
 			});
 		});
 
-		$(".open-accounts-link").on('click', function(event) {
-			event.preventDefault();
-			$("#showaccounts").click();
-		});
+
 
 		var cid;
 		var start;
@@ -48,26 +45,22 @@
 			}, speed);
 		}
 
-		$(".stack section:not(:last-child)").append('<div class="my-control slide-down"><a href="#"><i class="fa fa-chevron-down"></i></a></div>');
-		$(".stack section:last-child").append('<div class="my-control slide-right"><a href="#"><i class="fa fa-chevron-right"></i></a></div>');
+		// CUSTOM CONTROLS
+		$(".controls .navigate-left").append('<i class="fa fa-arrow-circle-o-left"></i>');
+		$(".controls .navigate-right").append('<i class="fa fa-arrow-circle-o-right"></i>');
+		$(".controls .navigate-up").append('<i class="fa fa-arrow-circle-o-up"></i>');
+		$(".controls .navigate-down").append('<i class="fa fa-arrow-circle-o-down"></i>');
 
-		$(".slide-down a").on('click', function(event) {
-			event.preventDefault();
-			Reveal.down();
-		});
-
-		$(".slide-right a").on('click', function(event) {
-			event.preventDefault();
-			Reveal.right();
-		});
 
 		Reveal.addEventListener( 'slidechanged', function( event ) {
 			// Vis bakgrunnsvideo
 			if(event.indexh == 6 && event.indexv == 0) {
 				$('#beachvid').fadeIn(400);
+				$("#beachvid").get(0).play();
 			}
 			else {
 				$('#beachvid').fadeOut(400);
+				$("#beachvid").get(0).pause();
 			}
 
 			// Teljing på om oss kundar
@@ -79,7 +72,7 @@
 				setCounter("counttonn", 0, 45753, 111, 1);
 			}
 
-			if(event.indexh == 5 && event.indexv == 2) {
+			if(event.indexh == 5 && event.indexv == 6) {
 				setCounter("avfallcount", 0, 98, 1, 10);
 			}
 
@@ -92,19 +85,19 @@
 			}
 
 			// CHARTS
-			if(event.indexh == 5 && event.indexv == 3) {
+			if(event.indexh == 5 && event.indexv == 2) {
 				var ctavfall = $("#pie-avfallsmengder").get(0).getContext("2d");
 				var myPieavfall = new Chart(ctavfall).Pie(avfallData, {
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%><%= value %>%"
 				});
 			}
-			if(event.indexh == 5 && event.indexv == 5) {
+			if(event.indexh == 5 && event.indexv == 4) {
 				var cthushaldsamla = $("#chart-hushaldsamla").get(0).getContext("2d");
 				var myBarhushaldsamla = new Chart(cthushaldsamla).Bar(hushaldsamlabardata, {
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%>: <%= value %> tonn"
 				});
 			}
-			if(event.indexh == 5 && event.indexv == 6) {
+			if(event.indexh == 5 && event.indexv == 5) {
 				var cthenta = $("#chart-area").get(0).getContext("2d");
 				var myPie = new Chart(cthenta).Doughnut(pieData, {
 					tooltipTemplate: "<%if (label){%><%=label%> <%}%><%= value %>%"

@@ -1,6 +1,5 @@
-<section data-background="img/backgrounds/attvinning.jpg">
-	<h2>Attvinning</h2>
-	<p>Avfall vert attvunne på tre måtar: Ombruk, materialattvinning og energiutnytting. Avfallshierarkiet viser kva som gjev best effekt med tanke på miljøet.</p>
+<section data-background="img/backgrounds/color/attvinning.jpg">
+	<h2 class="color-white text-shadow">Attvinning</h2>
 </section>
 
 <section>
@@ -9,6 +8,8 @@
 </section>
 
 <section>
+	<p>Avfall vert attvunne på tre måtar: Ombruk, materialattvinning og energiutnytting. Avfallshierarkiet viser kva som gjev best effekt med tanke på miljøet.</p>
+
 	<h3>Ombruk</h3>
 
 	<p>Me kallar det ombruk når folk tek i bruk gjenstandar andre har kvitta seg med. Døme er syklar, møblar, sportsutstyr, kvite- og brunevarer og klede.</p>

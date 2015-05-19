@@ -1,5 +1,5 @@
 <section>
-	<h2>Våre tilsette</h2>
+	<h2>Tilsette</h2>
 
 	<div class="tilsette clear">
 		<div class="grid33">
@@ -12,7 +12,7 @@
 		<div class="grid33">
 			<div class="tilsett">
 				<img src="img/tilsette/kjell-egil-hollund-sm.jpg" alt="Kjell Egil Hollund - Driftsleiar innsamling og kommunal drift">
-				<div class="stilling"><p>Kjell Egil Hollund</p><p>Driftsleiar innsamling og kommunal drift</p></div>
+				<div class="stilling"><p>Kjell Egil Hollund</p><p>Driftsleiar innsamling og kommunal drift</p><p>Representant for tilsette i styret</p></div>
 			</div>
 
 			<div class="tilsett">
@@ -36,14 +36,14 @@
 </section>
 
 <section>
-	<h2>Våre tilsette</h2>
+	<h2>Tilsette</h2>
 
 	<div class="tilsette clear">
 
 		<div class="grid33">
 			<div class="tilsett">
 				<img src="img/tilsette/arild-vik-la.jpg" alt="Arild Vik - Rådgjevar">
-				<div class="stilling"><p>Arild Vik</p><p>Rådgjevar</p></div>
+				<div class="stilling"><p>Arild Vik</p><p>Rådgjevar</p><p>Vara representant for tilsette i styret</p></div>
 			</div>
 		</div>
 
@@ -74,7 +74,7 @@
 </section>
 
 <section>
-	<h2>Våre tilsette</h2>
+	<h2>Tilsette</h2>
 
 	<div class="tilsette clear">
 		<div class="grid33">
@@ -111,7 +111,7 @@
 </section>
 
 <section>
-	<h2>Våre tilsette</h2>
+	<h2>Tilsette</h2>
 
 	<div class="tilsette clear">
 		<div class="grid33">

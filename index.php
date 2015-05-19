@@ -160,7 +160,7 @@
 
 		</div>
 
-		<video id="beachvid" autoplay loop poster="img/backgrounds/video/sponavik.jpg"><source src="img/backgrounds/video/sponavik.mp4" type="video/mp4"><source src="img/backgrounds/video/sponavik.webm" type="vid/webm"><p>Nettlesaren din støttar ikkje html5 video, ver venleg å oppdater.</p></video>
+		<video id="beachvid" loop poster="img/backgrounds/video/sponavik.jpg"><source src="img/backgrounds/video/sponavik.mp4" type="video/mp4"><source src="img/backgrounds/video/sponavik.webm" type="vid/webm"><p>Nettlesaren din støttar ikkje html5 video, ver venleg å oppdater.</p></video>
 
 		<footer class="footer">
 
@@ -168,23 +168,23 @@
 				<div class="clear">
 					<nav class="grid50 grid-center">
 						<ul class="grid50">
-							<li><a href="#">Start</a></li>
-							<li><a href="#/1">Om oss</a></li>
-							<li><a href="#/2">Dagleg leiar</a></li>
-							<li><a href="#/3">Tilsette</a></li>
-							<li><a href="#/4">Styret si årsmelding</a></li>
-							<li><a href="#/5">Ditt avfall</a></li>
-							<li><a href="#/6">Vårt samfunn</a></li>
+							<li><a href="#">Framsida</a></li>
+							<li><a href="#/1">1. Om oss</a></li>
+							<li><a href="#/2">2. Miljørett framtid</a></li>
+							<li><a href="#/3">3. Tilsette</a></li>
+							<li><a href="#/4">4. Styret si årsmelding</a></li>
+							<li><a href="#/5">5. Ditt avfall</a></li>
+							<li><a href="#/6">6. Vårt samfunn</a></li>
 						</ul>
 
 						<ul class="grid50">
-							<li><a href="#/7">Miljøsentralen</a></li>
-							<li><a href="#/8">Kompost</a></li>
-							<li><a href="#/9">Attvinning</a></li>
-							<li><a href="#/10">Gebyr</a></li>
-							<li><a href="#/11">Etterkalkulasjon</a></li>
+							<li><a href="#/7">7. Miljøsentralar</a></li>
+							<li><a href="#/8">8. Kompost</a></li>
+							<li><a href="#/9">9. Attvinning</a></li>
+							<li><a href="#/10">10. Gebyr</a></li>
+							<li><a href="#/11">11. Etterkalkulasjon</a></li>
+							<li><a href="#/12">12. Revisor melding</a></li>
 							<li><a href="#" class="open-accounts-link">Rekneskap</a></li>
-							<li><a href="#/12">Revisor melding</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -200,7 +200,11 @@
 				</div>
 
 				<div class="grid33 alignright main-item">
-					<p><a href="#" id="showaccounts">VIS REKNESKAP <i class="fa fa-caret-right"></i></a></p>
+					<p>
+						<a href="#" id="showaccounts">VIS REKNESKAP <i class="fa fa-caret-right"></i></a>
+						 |
+						<a href="img/arsmelding-print-2014.pdf">SKRIV UT ÅRSMELDING <i class="fa fa-print"></i></a>
+					</p>
 				</div>
 			</div>
 		</footer>
@@ -214,6 +218,7 @@
 			Reveal.initialize({
 				controls: true,
 				progress: true,
+				slideNumber: true,
 				mouseWheel: true,
 				history: true,
 				center: true,
@@ -236,5 +241,14 @@
 		<script src="js/script.js"></script>
 		<script src="js/custom-charts.js"></script>
 		<script src="js/accounts.js"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-55638660-3', 'auto');
+			ga('send', 'pageview');
+		</script>
 	</body>
 </html>

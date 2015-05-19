@@ -25,32 +25,33 @@ var colors = {
 	magentaRgb: "228,74,138",
 	yellowRgb: "241,167,26",
 	yellowLightRgb: "216,187,25",
-	redRgb: "205,26,29"
+	redRgb: "205,26,29",
+	highLight: "#222",
 };
 
 var pieData = [
 	{
 		value: 61,
 		color: colors.grey,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Restavfall: 8 969 tonn"
 	},
 	{
 		value: 23,
 		color: colors.brown,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Bioavfall: 3 359 tonn"
 	},
 	{
 		value: 16,
 		color: colors.blue,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Papir: 2 295 tonn"
 	}
 ];
 
 var deponidata = {
-    labels: ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014"],
+    labels: ["1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014"],
      datasets: [
         {
             label: "Verdi",
@@ -60,7 +61,7 @@ var deponidata = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: colors.grey,
-            data: [27157, 27157, 28362, 26726, 30146, 32293, 36454, 40604, 41028, 37952, 13248, 5568, 5185, 11100, 8075]
+            data: [5741, 84996, 109400, 122515, 82784, 27157, 26426, 28362, 26726, 30146, 32293, 36454, 40604, 41028, 37952, 13248, 5568, 5185, 11100, 8075]
         }
     ]
 };
@@ -85,31 +86,31 @@ var avfallData = [
 	{
 		value: 1.7,
 		color: colors.brown,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Hushaldsavfall deponi: 798 tonn"
 	},
 	{
 		value: 52,
 		color: colors.green,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Hushaldsavfall attvinning: 24 150 tonn"
 	},
 	{
 		value: 15,
 		color: colors.greenLight,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Næringsavfall deponi: 7 277 tonn"
 	},
 	{
 		value: 21,
 		color: colors.purple,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Næringsavfall attvinning: 9 659 tonn"
 	},
 	{
 		value: 8.4,
 		color: colors.blue,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Slam: 3 870 tonn"
 	}
 
@@ -119,73 +120,73 @@ var husholdpieData = [
 	{
 		value: 11726,
 		color: colors.grey,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Avfallsbrensel"
 	},
 	{
 		value: 3359,
 		color: colors.brown,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Våtorganisk"
 	},
 	{
 		value: 775,
 		color: colors.brownLight,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Heimekompostering"
 	},
 	{
 		value: 2662,
 		color: colors.blue,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Papir"
 	},
 	{
 		value: 486,
 		color: "rgb("+colors.bluelightRgb+")",
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Glas"
 	},
 	{
 		value: 1231,
 		color: "rgb("+colors.blueGreyRgb+")",
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Stål"
 	},
 	{
 		value: 675,
 		color: "rgb("+colors.magentaRgb+")",
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "EE-avfall"
 	},
 	{
 		value: 660,
 		color: colors.green,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Hageavfall"
 	},
 	{
 		value: 158,
 		color: "rgb("+colors.yellowLightRgb+")",
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Gips"
 	},
 	{
 		value: 2367,
 		color: "rgb("+colors.purpleLightRgb+")",
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Trevirke"
 	},
 	{
 		value: 695,
 		color: "rgb("+colors.redRgb+")",
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Farleg avfall"
 	},
 	{
 		value: 97,
 		color: "rgb("+colors.yellowRgb+")",
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Plast"
 	}
 ];
@@ -360,38 +361,37 @@ var feeusedData = [
 	{
 		value: 	756,
 		color: colors.green,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Innsamling"
 	},
 	{
 		value: 298,
 		color: colors.orange,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Eigenkostnad"
 	},
 	{
 		value: 	455,
 		color: colors.greenLight,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Miljøsentralar"
 	},
 	{
 		value: 223,
 		color: colors.blue,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Sluttbehandling brensel"
 	},
 	{
 		value: 82,
 		color: colors.brownLight,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Eigenkostnad kommunar"
-	}
-	,
+	},
 	{
 		value: 428,
 		color: colors.brown,
-		highlight: colors.greenLight,
+		highlight: colors.highLight,
 		label: "Meirverdiavgift"
 	}
 
